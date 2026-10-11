@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 550,
+  "title": "Australian Bushfire Density Hexagonal Bin Map",
+  "params": [
+    {
+      "name": "selected_year",
+      "value": "2020",
+      "bind": {
+        "input": "select",
+        "options": [
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/australian-states.json",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "projection": {
+        "type": "mercator",
+        "scale": 700,
+        "center": [
+          134,
+          -28
+        ]
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f0f0f0",
+        "stroke": "#cccccc"
+      }
+    },
+    {
+      "data": {
+        "url": "australia_bushfires_hexbin_yearly.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.year == selected_year"
+        }
+      ],
+      "projection": {
+        "type": "mercator",
+        "scale": 700,
+        "center": [
+          134,
+          -28
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "shape": "hexagon",
+        "filled": true,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "fire_count",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "inferno",
+            "type": "log"
+          },
+          "legend": {
+            "title": "Fire Detections (Log Scale)"
+          }
+        },
+        "size": {
+          "field": "total_frp",
+          "type": "quantitative",
+          "scale": {
+            "range": [
+              40,
+              600
+            ]
+          },
+          "legend": {
+            "title": "Total FRP (Intensity)"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "nominal",
+            "title": "Year"
+          },
+          {
+            "field": "fire_count",
+            "type": "quantitative",
+            "title": "Fire Count",
+            "format": ","
+          },
+          {
+            "field": "total_frp",
+            "type": "quantitative",
+            "title": "Total FRP",
+            "format": ",.1f"
+          }
+        ]
+      }
+    }
+  ]
+}
