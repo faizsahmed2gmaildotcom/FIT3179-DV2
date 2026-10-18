@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Adult Smoking Share - Choropleth Map</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-geo@2.2.2"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .description {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        #vis {
+            display: flex;
+            justify-content: center;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Global Adult Smoking Share (2022)</h1>
+    <p class="description">
+        A choropleth map showing the percentage of adults who smoke or use tobacco across countries.
+        Color scale: Green (0%) to Red (50%+). Source: Our World in Data.
+    </p>
+    <div id="vis"></div>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script type="text/javascript">
+        // Vega-Lite specification for choropleth map
+        const spec = {
+            $schema: "https://vega.github.io/schema/vega-lite/v5.2.0.json",
+            description: "Choropleth map of global adult smoking share in 2022",
+            width: 900,
+            height: 500,
+            data: {
+                url: "smoke_data.json",
+                format: { type: "json" }
+            },
+            transform: [
+                {
+                    lookup: "iso_a3",
+                    from: {
+                        data: {
+                            url: "countries.geojson",
+                            format: { type: "geojson", property: "iso_a3" }
+                        },
+                        key: "iso_a3",
+                        fields: ["smoke_share"]
+                    }
+                }
+            ],
+            projection: {
+                type: "mercator"
+            },
+            mark: {
+                type: "geoshape",
+                stroke: "#fff",
+                strokeWidth: 0.5
+            },
+            encoding: {
+                color: {
+                    field: "smoke_share",
+                    type: "quantitative",
+                    scale: {
+                        domain: [0, 50],
+                        range: ["#2ecc71", "#e74c3c"]
+                    },
+                    legend: {
+                        title: "Smoking Share (%)",
+                        direction: "horizontal",
+                        orient: "bottom",
+                        format: ".1f"
+                    }
+                },
+                tooltip: [
+                    { field: "iso_a3", title: "Country Code" },
+                    { field: "smoke_share", title: "Smoking Share (%)" }
+                ]
+            }
+        };
+
+        // Create the visualization
+        console.log("Loading Vega-Lite specification...");
+
+        const view = new vega.View(vega.parse(spec), {
+            renderer: 'canvas',
+            container: '#vis',
+            padding: 5
+        });
+
+        view.run()
+            .then(() => {
+                console.log("Visualization rendered successfully!");
+
+                // Add tooltip interaction
+                const tooltip = document.getElementById('tooltip');
+
+                view.addEventListener('mouseover', (event, item) => {
+                    if (item && item.mark && item.mark.values) {
+                        const values = item.mark.values;
+                        const smokeShare = values.smoke_share;
+
+                        if (smokeShare !== undefined && smokeShare !== null) {
+                            tooltip.style.opacity = 1;
+                            tooltip.innerHTML = `<strong>Country:</strong> ${values.iso_a3}<br><strong>Smoking Share:</strong> ${smokeShare.toFixed(1)}%`;
+                        }
+                    }
+                });
+
+                view.addEventListener('mouseout', () => {
+                    tooltip.style.opacity = 0;
+                });
+            })
+            .catch(error => {
+                console.error("Error rendering visualization:", error);
+            });
+    </script>
+</body>
+</html>
