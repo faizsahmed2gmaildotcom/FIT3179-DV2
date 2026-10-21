@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 450,
+  "padding": 15,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {
+    "url": "data/parsed/top-import-partners.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4,
+    "fill": "#3c2613",
+    "stroke": "#150b03",
+    "strokeWidth": 0.5
+  },
+  "encoding": {
+    "y": {
+      "field": "partner_name",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null,
+      "axis": {
+        "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+        "labelFontSize": 11,
+        "labelColor": "#150b03"
+      }
+    },
+    "x": {
+      "field": "total_import_value_usd",
+      "type": "quantitative",
+      "title": "Total Import Trade Value (USD)",
+      "axis": {
+        "format": "$,s",
+        "gridColor": "#ecdcb7",
+        "domainColor": "#3c2613"
+      }
+    },
+    "color": {
+      "field": "total_import_value_usd",
+      "type": "quantitative",
+      "scale": {"range": ["#ecdcb7", "#a67c52", "#3c2613"]},
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "partner_name", "type": "nominal", "title": "Partner Country"},
+      {"field": "partner_iso", "type": "nominal", "title": "ISO Code"},
+      {"field": "total_import_value_usd", "type": "quantitative", "title": "Total Import Value", "format": "$,.2f"}
+    ]
+  },
+  "config": {
+    "background": "#fffac4",
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "domainColor": "#3c2613",
+      "gridColor": "#ecdcb7",
+      "labelColor": "#150b03",
+      "titleColor": "#3c2613",
+      "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+      "titleFont": "Helvetica Now, sans-serif"
+    }
+  }
+}

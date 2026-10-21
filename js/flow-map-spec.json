@@ -1,0 +1,235 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 540,
+  "padding": 10,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "projection": {
+    "type": "naturalEarth1",
+    "center": [0, 0],
+    "scale": 130
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2025,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/shared/ne_50m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece8e1",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/shared/ne_50m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "transform": [
+        {"filter": "datum.properties.ISO_A3 == 'AUS'"}
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e1b987",
+        "stroke": "#3c2613",
+        "strokeWidth": 1.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/flow-map-data.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {
+          "aggregate": [
+            {"op": "max", "field": "import_value_usd", "as": "import_value_usd"},
+            {"op": "max", "field": "source_name", "as": "source_name"}
+          ],
+          "groupby": ["source_iso", "year"]
+        },
+        {
+          "lookup": "source_iso",
+          "from": {
+            "data": {
+              "url": "data/shared/ne_50m_admin_0_countries.json",
+              "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+            },
+            "key": "properties.ISO_A3"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.geo != null"}
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e1b987",
+        "stroke": "#3c2613",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "tooltip": [
+          {"field": "source_name", "type": "nominal", "title": "Supplier Country"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "import_value_usd", "type": "quantitative", "title": "Import Value (USD)", "format": "$,.2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/flow-map-data.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {"sort": [{"field": "source_iso"}, {"field": "seq"}]}
+      ],
+      "mark": {
+        "type": "line",
+        "strokeCap": "round",
+        "stroke": "transparent",
+        "strokeWidth": 16,
+        "opacity": 0
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "detail": {"field": "source_iso", "type": "nominal"},
+        "order": {"value": true},
+        "tooltip": [
+          {"field": "source_name", "type": "nominal", "title": "Source Country"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "import_value_usd", "type": "quantitative", "title": "Import Value (USD)", "format": "$,.2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/flow-map-data.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {"sort": [{"field": "source_iso"}, {"field": "seq"}]}
+      ],
+      "mark": {
+        "type": "line",
+        "strokeCap": "round",
+        "opacity": 0.75
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "detail": {"field": "source_iso", "type": "nominal"},
+        "order": {"value": true},
+        "size": {
+          "field": "import_value_usd",
+          "type": "quantitative",
+          "scale": {"type": "sqrt", "range": [1.5, 6]},
+          "legend": {
+            "title": "Import Value (USD)",
+            "format": "$,.0f",
+            "orient": "bottom-left",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
+        },
+        "color": {
+          "field": "import_value_usd",
+          "type": "quantitative",
+          "scale": {"range": ["#e1b987", "#3c2613", "#150b03"]}
+        },
+        "tooltip": [
+          {"field": "source_name", "type": "nominal", "title": "Source Country"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "import_value_usd", "type": "quantitative", "title": "Import Value (USD)", "format": "$,.2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/flow-map-data.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year && datum.is_end == 1"}
+      ],
+      "mark": {
+        "type": "point",
+        "shape": "triangle",
+        "filled": true,
+        "size": 65,
+        "color": "#3c2613"
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "angle": {"field": "arrow_angle", "type": "quantitative", "scale": null},
+        "tooltip": [
+          {"field": "source_name", "type": "nominal", "title": "Source Country"},
+          {"field": "import_value_usd", "type": "quantitative", "title": "Import Value (USD)", "format": "$,.2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"lon": 133.7751, "lat": -25.2744, "label": "Australia (100% Import Dependent Since 2006)"}
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "shape": "circle",
+        "filled": true,
+        "size": 110,
+        "color": "#150b03",
+        "stroke": "#ffffff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "tooltip": [
+          {"field": "label", "type": "nominal", "title": "Destination"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {"stroke": null},
+    "style": {"cell": {"stroke": "transparent"}},
+    "font": "Helvetica Now, Arial, sans-serif",
+    "title": {"font": "Old Dreams, serif", "fontSize": 20, "fontWeight": "normal"},
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {"font": "Helvetica Now, Arial, sans-serif"}
+  }
+}

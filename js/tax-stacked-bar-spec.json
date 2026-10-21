@@ -1,0 +1,169 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Australia vs. Global Tobacco Tax Stack Decomposition (2008–2024)",
+    "subtitle": "Stacked breakdown of base retail price and tax components (PPP USD) alongside dumbbell benchmark gaps",
+    "color": "#150b03",
+    "fontSize": 16,
+    "subtitleColor": "#3c2613"
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2008,
+        "max": 2024,
+        "step": 2,
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "title": "Tax Decomposition Stack",
+      "width": 550,
+      "height": 500,
+      "data": {"url": "data/parsed/tax_stacked_bar_decomposition.csv"},
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {"filter": "datum.entity_code == 'AUS' || datum.entity_code == 'GLB'"}
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "rect",
+            "width": 65,
+            "stroke": "#150b03",
+            "strokeWidth": 1,
+            "cornerRadius": 2
+          },
+          "transform": [
+            { "calculate": "datum.pct_of_price / 100", "as": "portion_of_price" }
+          ],
+          "encoding": {
+            "x": {
+              "field": "entity_name",
+              "type": "nominal",
+              "title": null,
+              "axis": {"labelAngle": 0, "labelFontSize": 12}
+            },
+            "y": {
+              "field": "start_y",
+              "type": "quantitative",
+              "title": "Cigarette Pack Price (PPP USD)",
+              "scale": {"domain": [0, 30]}
+            },
+            "y2": {"field": "end_y"},
+            "color": {
+              "field": "component",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "1. Base Retail Cost",
+                  "2. Specific Excise",
+                  "3. Ad Valorem Excise",
+                  "4. Import Duties",
+                  "5. VAT / Sales Tax",
+                  "6. Other Taxes"
+                ],
+                "range": ["#ecdcb7", "#3c2613", "#e1b987", "#e5c07b", "#a67c52", "#8c5a2b"]
+              },
+              "legend": {"title": "Tax Component", "orient": "bottom"}
+            },
+            "tooltip": [
+              {"field": "entity_name", "type": "nominal", "title": "Entity"},
+              {"field": "year", "type": "nominal", "title": "Year"},
+              {"field": "component", "type": "nominal", "title": "Component"},
+              {"field": "amount_ppp", "type": "quantitative", "title": "Amount (PPP USD)", "format": "$.2f"},
+              {"field": "portion_of_price", "type": "quantitative", "title": "Share of Retail Price", "format": ".1%"},
+              {"field": "total_price_ppp", "type": "quantitative", "title": "Total Price (PPP USD)", "format": "$.2f"}
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "baseline": "bottom",
+            "dy": -6,
+            "fontWeight": "bold",
+            "color": "#150b03"
+          },
+          "encoding": {
+            "x": {"field": "entity_name", "type": "nominal"},
+            "y": {"aggregate": "max", "field": "end_y", "type": "quantitative"},
+            "text": {"aggregate": "max", "field": "total_price_ppp", "type": "quantitative", "format": "$.2f"}
+          }
+        }
+      ]
+    },
+    {
+      "title": "Base Cost vs. Total Retail Price",
+      "width": 500,
+      "height": 500,
+      "data": {"url": "data/parsed/tax_dumbbell_benchmarks.csv"},
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {"filter": "datum.entity_code == 'AUS' || datum.entity_code == 'GLB' || datum.entity_code == 'NZL' || datum.entity_code == 'GBR' || datum.entity_code == 'USA'"}
+      ],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "#a67c52", "strokeWidth": 3, "opacity": 0.7},
+          "encoding": {
+            "y": {"field": "entity_name", "type": "nominal", "title": null, "axis": {"labelFontSize": 11}},
+            "x": {"field": "base_price_ppp", "type": "quantitative", "title": "Price Range (PPP USD)", "scale": {"domain": [0, 30]}},
+            "x2": {"field": "total_price_ppp"}
+          }
+        },
+        {
+          "mark": {"type": "point", "size": 120, "filled": true, "color": "#ecdcb7", "stroke": "#150b03", "strokeWidth": 1.5},
+          "encoding": {
+            "y": {"field": "entity_name", "type": "nominal"},
+            "x": {"field": "base_price_ppp", "type": "quantitative"},
+            "tooltip": [
+              {"field": "entity_name", "type": "nominal", "title": "Country/Benchmark"},
+              {"field": "base_price_ppp", "type": "quantitative", "title": "Base Cost (Net of Tax)", "format": "$.2f"}
+            ]
+          }
+        },
+        {
+          "mark": {"type": "point", "size": 140, "filled": true, "color": "#3c2613", "stroke": "#150b03", "strokeWidth": 1.5},
+          "transform": [
+            { "calculate": "datum.total_tax_pct / 100", "as": "total_tax_val" }
+          ],
+          "encoding": {
+            "y": {"field": "entity_name", "type": "nominal"},
+            "x": {"field": "total_price_ppp", "type": "quantitative"},
+            "tooltip": [
+              {"field": "entity_name", "type": "nominal", "title": "Country/Benchmark"},
+              {"field": "total_price_ppp", "type": "quantitative", "title": "Final Retail Price", "format": "$.2f"},
+              {"field": "total_tax_val", "type": "quantitative", "title": "Total Tax Burden", "format": ".1%"}
+            ]
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "dx": 10, "fontWeight": "bold", "color": "#3c2613"},
+          "transform": [
+            { "calculate": "datum.total_tax_pct / 100", "as": "total_tax_val" }
+          ],
+          "encoding": {
+            "y": {"field": "entity_name", "type": "nominal"},
+            "x": {"field": "total_price_ppp", "type": "quantitative"},
+            "text": {"field": "total_tax_val", "type": "quantitative", "format": ".1%"}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "background": "#fffac4",
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "domainColor": "#3c2613",
+      "gridColor": "#ecdcb7",
+      "labelColor": "#150b03",
+      "titleColor": "#3c2613"
+    }
+  }
+}

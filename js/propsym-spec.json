@@ -1,0 +1,219 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 580,
+  "padding": 10,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "projection": {
+    "type": "mercator",
+    "center": [133, -27],
+    "scale": 750
+  },
+  "params": [
+    {
+      "name": "selectedYearNum",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2020,
+        "max": 2024,
+        "step": 1,
+        "name": "Year: "
+      }
+    },
+    {
+      "name": "ratioMode",
+      "value": "Heart/lung-related admissions vs. Total admissions",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Heart/lung-related admissions vs. Total admissions",
+          "Heart/lung-related admissions vs. Rejected applicants"
+        ],
+        "name": "Ratio Mode: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "PHA_2021_Aust_GDA2020_Gen50"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f4f6f4",
+        "stroke": "#d0d8d3",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "australia"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#888888",
+        "strokeWidth": 1.0
+      }
+    },
+    {
+      "data": {"url": "data/parsed/admission_data.json"},
+      "transform": [
+        {
+          "calculate": "parseFloat(substring(datum.year, 0, 4))",
+          "as": "yearNum"
+        },
+        {"filter": "datum.yearNum == selectedYearNum"},
+        {
+          "calculate": "ratioMode == 'Heart/lung-related admissions vs. Total admissions' ? datum.cardiothoracic_admissions / (datum.total_additions - datum.removed_not_admitted) : datum.cardiothoracic_admissions / datum.removed_not_admitted",
+          "as": "ratioVal"
+        },
+        {
+          "calculate": "datum.ratioVal * 100",
+          "as": "ratioPct"
+        },
+        {
+          "calculate": "ratioMode == 'Heart/lung-related admissions vs. Total admissions' ? 1 + (datum.ratioPct - 1.25) / (1.75 - 1.25) * 2 : 1 + (datum.ratioPct - 5) / (15 - 5) * 2",
+          "as": "sizeValue"
+        },
+        {
+          "joinaggregate": [{"op": "median", "field": "ratioPct", "as": "medianRatio"}]
+        },
+        {
+          "calculate": "abs(datum.ratioPct - datum.medianRatio)",
+          "as": "diffFromMedian"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "#3c2613",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {
+          "field": "sizeValue",
+          "type": "quantitative",
+          "title": "Ratio Value",
+          "scale": {
+            "type": "pow",
+            "exponent": 3,
+            "zero": true,
+            "domain": [1, 3],
+            "range": [100, 2500]
+          },
+          "legend": {
+            "values": [1, 2, 3],
+            "title": "Representative Ratio",
+            "orient": "bottom-right",
+            "labelFontSize": 11,
+            "titleFontSize": 12,
+            "labelExpr": "ratioMode == 'Heart/lung-related admissions vs. Total admissions' ? (datum.value == 1 ? '1.25%' : datum.value == 2 ? '1.50%' : '1.75%') : (datum.value == 1 ? '5%' : datum.value == 2 ? '10%' : '15%')"
+          }
+        },
+        "color": {
+          "field": "diffFromMedian",
+          "type": "quantitative",
+          "title": "Deviation from Median",
+          "scale": {
+            "range": ["#2e7d32", "#f9a825", "#c62828"]
+          },
+          "legend": {
+            "title": "Deviation from Median",
+            "orient": "bottom-left",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "year", "type": "nominal", "title": "Year"},
+          {"field": "cardiothoracic_admissions", "type": "quantitative", "title": "Heart/Lung Admissions", "format": ",d"},
+          {"field": "total_additions", "type": "quantitative", "title": "Total Additions", "format": ",d"},
+          {"field": "removed_not_admitted", "type": "quantitative", "title": "Removed Not Admitted", "format": ",d"},
+          {"field": "ratioPct", "type": "quantitative", "title": "Ratio (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"label": ["West Australia, South Australia,", "and Queensland steadily", "increase over time."], "lon": 132, "lat": -26}
+        ]
+      },
+      "transform": [
+        {"filter": "ratioMode == 'Heart/lung-related admissions vs. Total admissions'"}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "font": "Helvetica Now, Arial, sans-serif",
+        "fontWeight": "bold",
+        "color": "#2e7d32",
+        "align": "center",
+        "dx": 0,
+        "dy": -25,
+        "opacity": 0.9
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"label": ["Queensland's ratio is always", "significantly smaller than the others."], "lon": 144, "lat": -22}
+        ]
+      },
+      "transform": [
+        {"filter": "ratioMode == 'Heart/lung-related admissions vs. Rejected applicants'"}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "font": "Helvetica Now, Arial, sans-serif",
+        "fontWeight": "bold",
+        "color": "#2e7d32",
+        "align": "center",
+        "dx": 0,
+        "dy": -25,
+        "opacity": 0.9
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {"stroke": null},
+    "style": {"cell": {"stroke": "transparent"}},
+    "font": "Helvetica Now, Arial, sans-serif",
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {"font": "Helvetica Now, Arial, sans-serif"}
+  }
+}

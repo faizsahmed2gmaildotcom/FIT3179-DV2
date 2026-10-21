@@ -1,0 +1,152 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 450,
+  "padding": 15,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {
+    "url": "data/parsed/parallel-coordinates-data.csv"
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2024,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.year == selected_year"},
+    {
+      "fold": ["deaths_pct", "dalys_pct", "ylls_pct"],
+      "as": ["metric", "value"]
+    },
+    {
+      "calculate": "datum.metric == 'deaths_pct' ? 'Attributable Deaths (%)' : datum.metric == 'dalys_pct' ? 'DALYs (%)' : 'YLLs (%)'",
+      "as": "metric_label"
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {"type": "point", "on": "pointerover", "nearest": false, "clear": "pointerout"}
+        }
+      ],
+      "transform": [{"filter": "datum.line_type == 'Country'"}],
+      "mark": {"type": "line", "opacity": 0, "strokeWidth": 16},
+      "encoding": {
+        "x": {"field": "metric_label", "type": "nominal", "sort": ["Attributable Deaths (%)", "DALYs (%)", "YLLs (%)"], "title": null},
+        "y": {"field": "value", "type": "quantitative", "scale": {"domain": [0, 2]}},
+        "detail": {"field": "country", "type": "nominal"},
+        "order": {"field": "metric_label"},
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country / Region"},
+          {"field": "region", "type": "nominal", "title": "WHO Region"},
+          {"field": "deaths_pct", "type": "quantitative", "title": "Deaths (%)", "format": ".2f"},
+          {"field": "dalys_pct", "type": "quantitative", "title": "DALYs (%)", "format": ".2f"},
+          {"field": "ylls_pct", "type": "quantitative", "title": "YLLs (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.line_type == 'Country'"}],
+      "mark": {"type": "line", "opacity": 0.15, "stroke": "#ecdcb7", "strokeWidth": 1.2},
+      "encoding": {
+        "x": {"field": "metric_label", "type": "nominal", "sort": ["Attributable Deaths (%)", "DALYs (%)", "YLLs (%)"], "title": null},
+        "y": {"field": "value", "type": "quantitative", "axis": {"title": "Attributable Proportion (%)", "domain": true, "tickCount": 5, "format": ".1f"}, "scale": {"domain": [0, 3]}},
+        "detail": {"field": "country", "type": "nominal"},
+        "order": {"field": "metric_label"},
+        "color": {
+          "condition": {"param": "hover", "value": "#e1b987"},
+          "value": "#ecdcb7"
+        },
+        "opacity": {
+          "condition": {"param": "hover", "value": 0.9},
+          "value": 0.15
+        },
+        "strokeWidth": {
+          "condition": {"param": "hover", "value": 2.5},
+          "value": 1.2
+        }
+      }
+    },
+    {
+      "transform": [{"filter": "datum.line_type == 'Regional Benchmark'"}],
+      "mark": {"type": "line", "strokeDash": [5, 5], "opacity": 0.85, "strokeWidth": 2.0},
+      "encoding": {
+        "x": {"field": "metric_label", "type": "nominal", "sort": ["Attributable Deaths (%)", "DALYs (%)", "YLLs (%)"], "title": null},
+        "y": {"field": "value", "type": "quantitative", "scale": {"domain": [0, 2]}},
+        "detail": {"field": "country", "type": "nominal"},
+        "order": {"field": "metric_label"},
+        "color": {"field": "region", "type": "nominal", "scale": {"range": ["#e1b987", "#3c2613", "#b8860b", "#d2b48c"]}},
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Regional Benchmark"},
+          {"field": "deaths_pct", "type": "quantitative", "title": "Deaths (%)", "format": ".2f"},
+          {"field": "dalys_pct", "type": "quantitative", "title": "DALYs (%)", "format": ".2f"},
+          {"field": "ylls_pct", "type": "quantitative", "title": "YLLs (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.line_type == 'Australia'"}],
+      "mark": {"type": "line", "opacity": 1.0, "strokeWidth": 3.5},
+      "encoding": {
+        "x": {"field": "metric_label", "type": "nominal", "sort": ["Attributable Deaths (%)", "DALYs (%)", "YLLs (%)"], "title": null},
+        "y": {"field": "value", "type": "quantitative", "scale": {"domain": [0, 2]}},
+        "detail": {"field": "country", "type": "nominal"},
+        "order": {"field": "metric_label"},
+        "color": {"value": "#3c2613"},
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country / Region"},
+          {"field": "region", "type": "nominal", "title": "WHO Region"},
+          {"field": "deaths_pct", "type": "quantitative", "title": "Deaths (%)", "format": ".2f"},
+          {"field": "dalys_pct", "type": "quantitative", "title": "DALYs (%)", "format": ".2f"},
+          {"field": "ylls_pct", "type": "quantitative", "title": "YLLs (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "data": {"values": [{"metric_label": "DALYs (%)", "y_val": 0.05, "text": "As COVID-19 came to a close in 2023, health risks across the world rose as people came out to smoke again."}]},
+      "transform": [
+        {"filter": "selected_year >= 2023"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "bottom",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#c62828",
+        "dy": -5
+      },
+      "encoding": {
+        "x": {"field": "metric_label", "type": "nominal"},
+        "y": {"field": "y_val", "type": "quantitative", "scale": {"domain": [0, 3]}},
+        "text": {"field": "text", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+      "titleFont": "Helvetica Now, sans-serif",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "labelColor": "#3c2613",
+      "titleColor": "#3c2613",
+      "labelAngle": 0
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+      "titleFont": "Helvetica Now, sans-serif"
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 560,
+  "padding": 10,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "projection": {
+    "type": "mercator",
+    "center": [133.5, -28],
+    "scale": 750
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2012,
+        "max": 2026,
+        "step": 1,
+        "name": "Year: "
+      }
+    },
+    {
+      "name": "selected_metric",
+      "value": "fire_count",
+      "bind": {
+        "input": "radio",
+        "options": ["fire_count", "total_frp"],
+        "labels": ["Total Number of Fires", "Total Fire Radiative Power (FRP)"],
+        "name": "Metric: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "PHA_2021_Aust_GDA2020_Gen50"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f4f6f4",
+        "stroke": "#d0d8d3",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.Name", "type": "nominal", "title": "PHA Name"},
+          {"field": "properties.Code", "type": "quantitative", "title": "PHA Code"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "australia"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#888888",
+        "strokeWidth": 1.0
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/australia_bushfires_hexbin_yearly.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {
+          "calculate": "selected_metric == 'fire_count' ? 'Total Number of Fires' : 'Total Fire Radiative Power (MW)'",
+          "as": "metric_label"
+        },
+        {
+          "calculate": "datum[selected_metric]",
+          "as": "metric_value"
+        },
+        {
+          "calculate": "datum.metric_value > 0 ? log(datum.metric_value) / LN10 : 0",
+          "as": "log_value"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 250,
+        "stroke": "#ffffff",
+        "strokeWidth": 0.3,
+        "shape": "M0,-1 L0.866,-0.5 L0.866,0.5 L0,1 L-0.866,0.5 L-0.866,-0.5 Z"
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "color": {
+          "field": "log_value",
+          "type": "quantitative",
+          "scale": {
+            "range": ["#fffac4", "#ecdcb7", "#e1b987", "#3c2613", "#150b03"]
+          },
+          "legend": {
+            "title": "Fire Intensity (log10)",
+            "format": ".1f",
+            "orient": "bottom-left",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "hex_q", "type": "quantitative", "title": "Grid Q"},
+          {"field": "hex_r", "type": "quantitative", "title": "Grid R"},
+          {"field": "fire_count", "type": "quantitative", "title": "Fire Count", "format": ",d"},
+          {"field": "total_frp", "type": "quantitative", "title": "Total FRP (MW)", "format": ",.2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"label": ["North Australia:", "Significantly fewer smokers,", "yet significantly more fires"], "lon": 115, "lat": -12}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#3c2613",
+        "align": "center",
+        "dx": 0,
+        "dy": -15,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"label": ["Australian Alps:", "High fires despite", "sparse population."], "lon": 154.5, "lat": -38}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#3c2613",
+        "align": "center",
+        "dx": 0,
+        "dy": -15,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"label": ["South Australia:", "No fires nor smokers."], "lon": 128.5, "lat": -37}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#3c2613",
+        "align": "center",
+        "dx": 0,
+        "dy": -15,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"lon": 133, "lat": -18},
+          {"lon": 133, "lat": -16.5}
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "strokeDash": [3, 3],
+        "stroke": "#3c2613",
+        "strokeWidth": 1.2,
+        "opacity": 0.6
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"lon": 148, "lat": -37.5},
+          {"lon": 148, "lat": -36.5}
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "strokeDash": [3, 3],
+        "stroke": "#3c2613",
+        "strokeWidth": 1.2,
+        "opacity": 0.6
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {"stroke": null},
+    "style": {"cell": {"stroke": "transparent"}},
+    "font": "Helvetica Now, Arial, sans-serif",
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {"font": "Helvetica Now, Arial, sans-serif"}
+  }
+}

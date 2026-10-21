@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 450,
+  "padding": 15,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {
+    "url": "data/parsed/historical-smoking-trends.csv"
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {"type": "point", "on": "pointerover", "nearest": true, "clear": "pointerout"}
+        }
+      ],
+      "mark": {"type": "line", "opacity": 0.2, "strokeWidth": 2},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {"domain": [2000, 2024], "zero": false},
+          "axis": {"format": "d", "title": "Year"}
+        },
+        "y": {
+          "field": "smoking_share_pct",
+          "type": "quantitative",
+          "scale": {"domain": [0, 45]},
+          "axis": {"title": "Smoking Prevalence Share (%)"}
+        },
+        "color": {
+          "field": "entity",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Australia", "World", "High-income countries", "New Zealand", "United Kingdom", "United States", "Europe"],
+            "range": ["#3c2613", "#e1b987", "#ecdcb7", "#a67c52", "#8c5a2b", "#d2b48c", "#b8860b"]
+          },
+          "legend": {"title": "Entity / Benchmark", "orient": "bottom"}
+        },
+        "detail": {"field": "entity", "type": "nominal"},
+        "strokeWidth": {
+          "condition": [
+            {"test": "datum.entity == 'Australia'", "value": 3.5},
+            {"param": "hover", "value": 3}
+          ],
+          "value": 1.5
+        },
+        "opacity": {
+          "condition": [
+            {"test": "datum.entity == 'Australia'", "value": 1.0},
+            {"param": "hover", "value": 0.9}
+          ],
+          "value": 0.4
+        },
+        "tooltip": [
+          {"field": "entity", "type": "nominal", "title": "Entity"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "smoking_share_pct", "type": "quantitative", "title": "Smoking Share (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 30},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "smoking_share_pct", "type": "quantitative"},
+        "color": {
+          "field": "entity",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Australia", "World", "High-income countries", "New Zealand", "United Kingdom", "United States", "Europe"],
+            "range": ["#3c2613", "#e1b987", "#ecdcb7", "#a67c52", "#8c5a2b", "#d2b48c", "#b8860b"]
+          }
+        },
+        "opacity": {
+          "condition": {"param": "hover", "value": 1},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "entity", "type": "nominal", "title": "Entity"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "smoking_share_pct", "type": "quantitative", "title": "Smoking Share (%)", "format": ".1f"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#fffac4",
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "domainColor": "#3c2613",
+      "gridColor": "#ecdcb7",
+      "labelColor": "#150b03",
+      "titleColor": "#3c2613",
+      "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+      "titleFont": "Helvetica Now, sans-serif"
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Helvetica, Arial, sans-serif",
+      "titleFont": "Helvetica Now, sans-serif",
+      "labelColor": "#150b03",
+      "titleColor": "#3c2613"
+    }
+  }
+}
