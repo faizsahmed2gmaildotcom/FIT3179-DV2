@@ -1,0 +1,64 @@
+year,entity,code,smoking_share_pct,series_type
+2000,Australia,AUS,24.9,Australia
+2000,Europe,OWID_EUR,37.03,Regional Benchmark
+2000,High-income countries,OWID_HIC,35.77,Global Benchmark
+2000,New Zealand,NZL,30.0,Regional Benchmark
+2000,United Kingdom,GBR,38.2,Regional Benchmark
+2000,United States,USA,38.6,Regional Benchmark
+2000,World,OWID_WRL,34.82,Global Benchmark
+2005,Australia,AUS,21.2,Australia
+2005,Europe,OWID_EUR,33.83,Regional Benchmark
+2005,High-income countries,OWID_HIC,31.52,Global Benchmark
+2005,New Zealand,NZL,23.4,Regional Benchmark
+2005,United Kingdom,GBR,30.3,Regional Benchmark
+2005,United States,USA,31.9,Regional Benchmark
+2005,World,OWID_WRL,30.93,Global Benchmark
+2007,Australia,AUS,19.9,Australia
+2007,Europe,OWID_EUR,32.68,Regional Benchmark
+2007,High-income countries,OWID_HIC,30.0,Global Benchmark
+2007,New Zealand,NZL,21.2,Regional Benchmark
+2007,United Kingdom,GBR,27.7,Regional Benchmark
+2007,United States,USA,29.7,Regional Benchmark
+2007,World,OWID_WRL,29.45,Global Benchmark
+2010,Australia,AUS,18.1,Australia
+2010,Europe,OWID_EUR,30.99,Regional Benchmark
+2010,High-income countries,OWID_HIC,27.82,Global Benchmark
+2010,New Zealand,NZL,18.3,Regional Benchmark
+2010,United Kingdom,GBR,24.2,Regional Benchmark
+2010,United States,USA,26.5,Regional Benchmark
+2010,World,OWID_WRL,27.48,Global Benchmark
+2015,Australia,AUS,15.4,Australia
+2015,Europe,OWID_EUR,28.52,Regional Benchmark
+2015,High-income countries,OWID_HIC,24.68,Global Benchmark
+2015,New Zealand,NZL,14.3,Regional Benchmark
+2015,United Kingdom,GBR,19.2,Regional Benchmark
+2015,United States,USA,22.0,Regional Benchmark
+2015,World,OWID_WRL,24.53,Global Benchmark
+2020,Australia,AUS,13.2,Australia
+2020,Europe,OWID_EUR,26.4,Regional Benchmark
+2020,High-income countries,OWID_HIC,22.06,Global Benchmark
+2020,New Zealand,NZL,11.3,Regional Benchmark
+2020,United Kingdom,GBR,15.3,Regional Benchmark
+2020,United States,USA,18.3,Regional Benchmark
+2020,World,OWID_WRL,22.02,Global Benchmark
+2022,Australia,AUS,12.4,Australia
+2022,Europe,OWID_EUR,25.58,Regional Benchmark
+2022,High-income countries,OWID_HIC,21.1,Global Benchmark
+2022,New Zealand,NZL,10.3,Regional Benchmark
+2022,United Kingdom,GBR,14.0,Regional Benchmark
+2022,United States,USA,17.0,Regional Benchmark
+2022,World,OWID_WRL,21.13,Global Benchmark
+2023,Australia,AUS,12.0,Australia
+2023,Europe,OWID_EUR,25.19,Regional Benchmark
+2023,High-income countries,OWID_HIC,20.64,Global Benchmark
+2023,New Zealand,NZL,9.8,Regional Benchmark
+2023,United Kingdom,GBR,13.4,Regional Benchmark
+2023,United States,USA,16.4,Regional Benchmark
+2023,World,OWID_WRL,20.71,Global Benchmark
+2024,Australia,AUS,11.6,Australia
+2024,Europe,OWID_EUR,24.83,Regional Benchmark
+2024,High-income countries,OWID_HIC,20.2,Global Benchmark
+2024,New Zealand,NZL,9.3,Regional Benchmark
+2024,United Kingdom,GBR,12.8,Regional Benchmark
+2024,United States,USA,15.8,Regional Benchmark
+2024,World,OWID_WRL,20.28,Global Benchmark

@@ -15,5 +15,6 @@
     <orderEntry type="library" name="vega-embed" level="application" />
     <orderEntry type="library" name="vega-lite" level="application" />
     <orderEntry type="library" name="vega" level="application" />
+    <orderEntry type="library" name="vega-geo" level="application" />
   </component>
 </module>

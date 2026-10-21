@@ -1,0 +1,1674 @@
+year,entity_code,entity_name,entity_type,region,base_price_ppp,total_price_ppp,total_tax_pct
+2008,COK,Cook Islands,Country,Western Pacific,,,46.07
+2008,CUB,Cuba,Country,Americas,,,75.0
+2008,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2008,NIU,Niue,Country,Western Pacific,,,75.73
+2008,SOM,Somalia,Country,Eastern Mediterranean,,,10.0
+2008,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,70.79
+2008,ZWE,Zimbabwe,Country,Africa,,,42.86
+2008,PRY,Paraguay,Country,Americas,0.608,0.72,15.52
+2008,AFG,Afghanistan,Country,Eastern Mediterranean,0.885,0.96,7.79
+2008,IRQ,Iraq,Country,Eastern Mediterranean,0.958,0.97,1.27
+2008,PHL,Philippines,Country,Western Pacific,0.696,0.98,28.95
+2008,BGD,Bangladesh,Country,South-East Asia,0.625,1.18,47.0
+2008,BLR,Belarus,Country,Europe,0.882,1.24,28.86
+2008,MOZ,Mozambique,Country,Africa,0.663,1.28,48.2
+2008,KHM,Cambodia,Country,Western Pacific,1.168,1.41,17.13
+2008,GMB,Gambia,Country,Africa,0.68,1.43,52.44
+2008,PAK,Pakistan,Country,Eastern Mediterranean,0.708,1.49,52.49
+2008,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,1.547,1.59,2.7
+2008,AGO,Angola,Country,Africa,1.226,1.6,23.37
+2008,GIN,Guinea,Country,Africa,1.53,1.7,10.0
+2008,UGA,Uganda,Country,Africa,0.758,1.86,59.25
+2008,MNG,Mongolia,Country,Western Pacific,1.131,1.87,39.51
+2008,LBY,Libya,Country,Eastern Mediterranean,1.451,1.93,24.82
+2008,SWZ,Eswatini,Country,Africa,6.374,10.13,37.08
+2008,NOR,Norway,Country,Europe,2.896,10.6,72.68
+2008,NZL,New Zealand,Country,Western Pacific,3.272,10.92,70.04
+2008,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.889,12.33,76.57
+2008,LKA,Sri Lanka,Country,South-East Asia,3.822,13.49,71.67
+2008,IRL,Ireland,Country,Europe,2.892,14.13,79.53
+2008,JAM,Jamaica,Country,Americas,8.093,14.42,43.88
+2008,SYC,Seychelles,Country,Africa,3.927,16.2,75.76
+2008,SGP,Singapore,Country,Western Pacific,6.184,18.87,67.23
+2008,UKR,Ukraine,Country,Europe,1.033,2.02,48.85
+2008,CAF,Central African Republic,Country,Africa,1.405,2.09,32.77
+2008,ETH,Ethiopia,Country,Africa,1.429,2.09,31.61
+2008,TGO,Togo,Country,Africa,1.722,2.16,20.27
+2008,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,1.526,2.18,30.0
+2008,MNE,Montenegro,Country,Europe,1.231,2.22,44.53
+2008,TKM,Turkmenistan,Country,Europe,1.373,2.22,38.15
+2008,KAZ,Kazakhstan,Country,Europe,1.801,2.24,19.6
+2008,SLE,Sierra Leone,Country,Africa,1.95,2.25,13.32
+2008,SEN,Senegal,Country,Africa,1.688,2.31,26.94
+2008,COG,Congo,Country,Africa,1.574,2.32,32.17
+2008,FSM,Micronesia (Federated States of),Country,Western Pacific,0.777,2.33,66.67
+2008,COL,Colombia,Country,Americas,1.577,2.4,34.31
+2008,NER,Niger,Country,Africa,1.817,2.51,27.61
+2008,AZE,Azerbaijan,Country,Europe,2.003,2.52,20.52
+2008,GNB,Guinea-Bissau,Country,Africa,2.093,2.52,16.94
+2008,RUS,Russian Federation,Country,Europe,1.797,2.58,30.35
+2008,QAT,Qatar,Country,Eastern Mediterranean,1.727,2.59,33.33
+2008,UZB,Uzbekistan,Country,Europe,1.78,2.6,31.54
+2008,GNQ,Equatorial Guinea,Country,Africa,2.063,2.61,20.96
+2008,CHN,China,Country,Western Pacific,1.571,2.64,40.51
+2008,BRA,Brazil,Country,Americas,1.136,2.65,57.15
+2008,TCD,Chad,Country,Africa,2.06,2.69,23.41
+2008,KWT,Kuwait,Country,Eastern Mediterranean,1.772,2.77,36.04
+2008,BDI,Burundi,Country,Africa,1.161,2.83,58.99
+2008,DJI,Djibouti,Country,Eastern Mediterranean,2.172,2.86,24.07
+2008,MDA,Republic of Moldova,Country,Europe,2.264,2.89,21.67
+2008,MWI,Malawi,Country,Africa,1.533,3.02,49.23
+2008,OMN,Oman,Country,Eastern Mediterranean,2.033,3.05,33.33
+2008,RWA,Rwanda,Country,Africa,2.032,3.05,33.37
+2008,DMA,Dominica,Country,Americas,2.284,3.07,25.61
+2008,EGY,Egypt,Country,Eastern Mediterranean,1.275,3.13,59.27
+2008,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.82,3.21,12.15
+2008,CMR,Cameroon,Country,Africa,2.218,3.25,31.75
+2008,LBR,Liberia,Country,Africa,2.886,3.28,12.0
+2008,COD,Democratic Republic of the Congo,Country,Africa,2.347,3.3,28.89
+2008,KGZ,Kyrgyzstan,Country,Europe,2.045,3.3,38.03
+2008,DZA,Algeria,Country,Africa,1.588,3.34,52.46
+2008,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.333,3.37,30.77
+2008,MDG,Madagascar,Country,Africa,1.129,3.41,66.88
+2008,BRN,Brunei Darussalam,Country,Western Pacific,1.588,3.42,53.57
+2008,YEM,Yemen,Country,Eastern Mediterranean,1.558,3.44,54.7
+2008,VNM,Viet Nam,Country,Western Pacific,2.374,3.48,31.79
+2008,MHL,Marshall Islands,Country,Western Pacific,1.603,3.49,54.06
+2008,SRB,Serbia,Country,Europe,1.324,3.49,62.05
+2008,BEN,Benin,Country,Africa,2.839,3.57,20.49
+2008,HND,Honduras,Country,Americas,1.982,3.62,45.25
+2008,JPN,Japan,Country,Western Pacific,1.337,3.62,63.06
+2008,KNA,Saint Kitts and Nevis,Country,Americas,2.994,3.66,18.2
+2008,BOL,Bolivia (Plurinational State of),Country,Americas,2.183,3.7,41.0
+2008,ZMB,Zambia,Country,Africa,2.0,3.74,46.52
+2008,BFA,Burkina Faso,Country,Africa,2.626,3.78,30.54
+2008,GHA,Ghana,Country,Africa,2.837,3.88,26.89
+2008,ARG,Argentina,Country,Americas,1.204,3.91,69.2
+2008,NGA,Nigeria,Country,Africa,3.111,3.92,20.63
+2008,PER,Peru,Country,Americas,2.335,3.97,41.18
+2008,COM,Comoros,Country,Africa,2.312,3.98,41.9
+2008,TTO,Trinidad and Tobago,Country,Americas,2.564,4.05,36.69
+2008,TUN,Tunisia,Country,Eastern Mediterranean,0.617,4.12,85.03
+2008,GEO,Georgia,Country,Europe,2.123,4.13,48.59
+2008,BHR,Bahrain,Country,Eastern Mediterranean,2.76,4.14,33.33
+2008,BIH,Bosnia and Herzegovina,Country,Europe,1.81,4.16,56.5
+2008,TZA,United Republic of Tanzania,Country,Africa,2.723,4.17,34.69
+2008,GUY,Guyana,Country,Americas,3.008,4.18,28.04
+2008,BHS,Bahamas,Country,Americas,2.888,4.2,31.23
+2008,GAB,Gabon,Country,Africa,3.468,4.2,17.43
+2008,LTU,Lithuania,Country,Europe,1.365,4.21,67.57
+2008,ATG,Antigua and Barbuda,Country,Americas,3.614,4.24,14.77
+2008,CRI,Costa Rica,Country,Americas,2.559,4.38,41.57
+2008,MKD,North Macedonia,Country,Europe,1.227,4.39,72.05
+2008,KOR,Republic of Korea,Country,Western Pacific,1.672,4.4,61.99
+2008,ALB,Albania,Country,Europe,2.257,4.51,49.95
+2008,SAU,Saudi Arabia,Country,Eastern Mediterranean,3.007,4.51,33.33
+2008,CIV,Cote d'Ivoire,Country,Africa,3.084,4.54,32.07
+2008,SLV,El Salvador,Country,Americas,2.733,4.67,41.47
+2008,VCT,Saint Vincent and the Grenadines,Country,Americas,3.992,4.68,14.71
+2008,URY,Uruguay,Country,Americas,1.658,4.85,65.82
+2008,KEN,Kenya,Country,Africa,1.159,4.89,76.29
+2008,POL,Poland,Country,Europe,0.301,4.89,93.84
+2008,STP,Sao Tome and Principe,Country,Africa,3.667,4.89,25.0
+2008,ECU,Ecuador,Country,Americas,1.771,4.96,64.29
+2008,JOR,Jordan,Country,Eastern Mediterranean,1.138,4.99,77.2
+2008,GTM,Guatemala,Country,Americas,2.435,5.05,51.79
+2008,CHL,Chile,Country,Americas,1.196,5.06,76.37
+2008,EST,Estonia,Country,Europe,1.152,5.08,77.33
+2008,MDV,Maldives,Country,South-East Asia,3.563,5.09,30.0
+2008,GRD,Grenada,Country,Americas,3.04,5.11,40.5
+2008,LVA,Latvia,Country,Europe,1.481,5.2,71.51
+2008,ESP,Spain,Country,Europe,1.18,5.21,77.35
+2008,IDN,Indonesia,Country,Western Pacific,2.459,5.26,53.26
+2008,SVK,Slovakia,Country,Europe,0.828,5.38,84.61
+2008,TUR,Türkiye,Country,Europe,1.439,5.38,73.25
+2008,CPV,Cabo Verde,Country,Africa,4.436,5.42,18.16
+2008,SVN,Slovenia,Country,Europe,1.362,5.42,74.88
+2008,BLZ,Belize,Country,Americas,2.347,5.48,57.17
+2008,ARM,Armenia,Country,Europe,4.298,5.51,22.0
+2008,TUV,Tuvalu,Country,Western Pacific,5.54,5.54,0.0
+2008,WSM,Samoa,Country,Western Pacific,2.08,5.55,62.53
+2008,THA,Thailand,Country,South-East Asia,2.025,5.59,63.78
+2008,LBN,Lebanon,Country,Eastern Mediterranean,3.135,5.6,44.01
+2008,PLW,Palau,Country,Western Pacific,2.413,5.63,57.14
+2008,LCA,Saint Lucia,Country,Americas,3.943,5.64,30.08
+2008,SUR,Suriname,Country,Americas,2.415,5.68,57.49
+2008,TLS,Timor-Leste,Country,South-East Asia,5.83,5.83,0.0
+2008,HRV,Croatia,Country,Europe,2.327,5.92,60.7
+2008,LUX,Luxembourg,Country,Europe,1.773,5.93,70.1
+2008,MRT,Mauritania,Country,Africa,5.415,5.93,8.68
+2008,MUS,Mauritius,Country,Africa,1.142,5.93,80.74
+2008,CYP,Cyprus,Country,Europe,1.686,6.04,72.08
+2008,MLI,Mali,Country,Africa,4.431,6.04,26.64
+2008,MEX,Mexico,Country,Americas,2.353,6.06,61.17
+2008,IND,India,Country,South-East Asia,3.298,6.08,45.76
+2008,MAR,Morocco,Country,Eastern Mediterranean,2.045,6.08,66.36
+2008,NPL,Nepal,Country,South-East Asia,4.627,6.11,24.27
+2008,CZE,Czechia,Country,Europe,1.054,6.14,82.83
+2008,ZAF,South Africa,Country,Africa,3.385,6.49,47.84
+2008,MMR,Myanmar,Country,South-East Asia,4.935,6.58,25.0
+2008,DNK,Denmark,Country,Europe,1.767,6.64,73.39
+2008,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,6.65,6.65,0.0
+2008,GRC,Greece,Country,Europe,1.77,6.67,73.47
+2008,USA,United States of America,Country,Americas,4.237,6.68,36.57
+2008,PNG,Papua New Guinea,Country,Western Pacific,3.901,6.72,41.95
+2008,AUT,Austria,Country,Europe,1.77,6.94,74.49
+2008,HUN,Hungary,Country,Europe,1.801,6.94,74.05
+2008,CHE,Switzerland,Country,Europe,2.565,6.97,63.2
+2008,BGR,Bulgaria,Country,Europe,1.018,6.99,85.44
+2008,ROU,Romania,Country,Europe,1.942,7.03,72.37
+2008,TON,Tonga,Country,Western Pacific,4.077,7.1,42.58
+2008,BRB,Barbados,Country,Americas,3.714,7.11,47.77
+2008,SDN,Sudan,Country,Eastern Mediterranean,2.259,7.34,69.23
+2008,ITA,Italy,Country,Europe,1.845,7.43,75.17
+2008,FIN,Finland,Country,Europe,1.741,7.54,76.91
+2008,NRU,Naoero,Country,Western Pacific,4.439,7.57,41.36
+2008,ISR,Israel,Country,Europe,2.118,7.59,72.1
+2008,NAM,Namibia,Country,Africa,4.401,7.68,42.7
+2008,PAN,Panama,Country,Americas,4.883,7.7,36.59
+2008,BEL,Belgium,Country,Europe,1.788,7.92,77.43
+2008,MYS,Malaysia,Country,Western Pacific,3.719,8.08,53.97
+2008,PRT,Portugal,Country,Europe,1.648,8.08,79.6
+2008,SWE,Sweden,Country,Europe,2.305,8.19,71.85
+2008,VUT,Vanuatu,Country,Western Pacific,3.529,8.29,57.43
+2008,NLD,Netherlands (Kingdom of the),Country,Europe,2.196,8.34,73.67
+2008,ERI,Eritrea,Country,Africa,3.75,8.4,55.36
+2008,FJI,Fiji,Country,Western Pacific,4.366,8.66,49.58
+2008,BWA,Botswana,Country,Africa,4.963,8.67,42.76
+2008,KIR,Kiribati,Country,Western Pacific,4.34,8.68,50.0
+2008,DOM,Dominican Republic,Country,Americas,3.85,8.96,57.03
+2008,LSO,Lesotho,Country,Africa,6.446,9.02,28.54
+2008,ISL,Iceland,Country,Europe,3.763,9.03,58.33
+2008,CAN,Canada,Country,Americas,3.286,9.27,64.55
+2008,DEU,Germany,Country,Europe,2.248,9.28,75.78
+2008,FRA,France,Country,Europe,1.847,9.42,80.39
+2008,AUS,Australia,Country,Western Pacific,3.664,9.67,62.11
+2008,MLT,Malta,Country,Europe,2.317,9.73,76.19
+2008,GLB,Global Average,Benchmark,Global,2.426,5.118,46.58
+2010,COK,Cook Islands,Country,Western Pacific,,,46.34
+2010,MCO,Monaco,Country,Europe,,,0.0
+2010,NIU,Niue,Country,Western Pacific,,,62.81
+2010,SOM,Somalia,Country,Eastern Mediterranean,,,10.0
+2010,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,71.04
+2010,ZWE,Zimbabwe,Country,Africa,,,51.69
+2010,PRY,Paraguay,Country,Americas,0.735,0.87,15.51
+2010,IRQ,Iraq,Country,Eastern Mediterranean,1.027,1.04,1.27
+2010,PHL,Philippines,Country,Western Pacific,0.752,1.05,28.42
+2010,AFG,Afghanistan,Country,Eastern Mediterranean,1.041,1.08,3.6
+2010,BGD,Bangladesh,Country,South-East Asia,0.608,1.17,48.0
+2010,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,1.265,1.3,2.7
+2010,GMB,Gambia,Country,Africa,0.576,1.31,56.06
+2010,BLR,Belarus,Country,Europe,1.026,1.43,28.23
+2010,GIN,Guinea,Country,Africa,1.243,1.43,13.11
+2010,KHM,Cambodia,Country,Western Pacific,1.251,1.51,17.13
+2010,MOZ,Mozambique,Country,Africa,1.153,1.57,26.53
+2010,SLE,Sierra Leone,Country,Africa,1.531,1.77,13.48
+2010,PAK,Pakistan,Country,Eastern Mediterranean,0.814,1.81,55.01
+2010,CAN,Canada,Country,Americas,3.869,10.24,62.22
+2010,MLT,Malta,Country,Europe,2.463,10.37,76.25
+2010,NZL,New Zealand,Country,Western Pacific,2.048,10.39,80.29
+2010,ISL,Iceland,Country,Europe,4.539,10.42,56.44
+2010,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,2.332,10.44,77.66
+2010,LSO,Lesotho,Country,Africa,5.784,10.51,44.97
+2010,AUS,Australia,Country,Western Pacific,4.151,11.47,63.81
+2010,PAN,Panama,Country,Americas,4.806,11.78,59.2
+2010,NOR,Norway,Country,Europe,3.343,12.09,72.35
+2010,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,3.091,13.29,76.74
+2010,LKA,Sri Lanka,Country,South-East Asia,3.7,14.17,73.89
+2010,SYC,Seychelles,Country,Africa,4.868,15.01,67.57
+2010,IRL,Ireland,Country,Europe,3.499,16.29,78.52
+2010,JAM,Jamaica,Country,Americas,8.353,17.11,51.18
+2010,SGP,Singapore,Country,Western Pacific,5.971,18.22,67.23
+2010,KAZ,Kazakhstan,Country,Europe,1.466,2.0,26.71
+2010,CAF,Central African Republic,Country,Africa,1.358,2.02,32.77
+2010,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,1.477,2.11,30.0
+2010,MNG,Mongolia,Country,Western Pacific,1.066,2.12,49.7
+2010,LBY,Libya,Country,Eastern Mediterranean,1.624,2.16,24.82
+2010,FSM,Micronesia (Federated States of),Country,Western Pacific,0.72,2.16,66.67
+2010,COG,Congo,Country,Africa,1.553,2.29,32.17
+2010,TGO,Togo,Country,Africa,1.794,2.29,21.66
+2010,SEN,Senegal,Country,Africa,1.618,2.32,30.25
+2010,NER,Niger,Country,Africa,1.647,2.34,29.62
+2010,UGA,Uganda,Country,Africa,1.297,2.34,44.59
+2010,COL,Colombia,Country,Americas,1.187,2.37,49.93
+2010,GNB,Guinea-Bissau,Country,Africa,2.085,2.51,16.94
+2010,TCD,Chad,Country,Africa,1.991,2.6,23.41
+2010,GNQ,Equatorial Guinea,Country,Africa,2.066,2.65,22.05
+2010,COD,Democratic Republic of the Congo,Country,Africa,1.903,2.66,28.45
+2010,ETH,Ethiopia,Country,Africa,1.546,2.67,42.11
+2010,TJK,Tajikistan,Country,Europe,1.871,2.67,29.91
+2010,AZE,Azerbaijan,Country,Europe,2.177,2.74,20.54
+2010,LBR,Liberia,Country,Africa,2.232,2.77,19.43
+2010,RUS,Russian Federation,Country,Europe,1.801,2.77,34.98
+2010,RWA,Rwanda,Country,Africa,1.72,2.77,37.9
+2010,MNE,Montenegro,Country,Europe,0.976,2.78,64.91
+2010,DMA,Dominica,Country,Americas,2.12,2.85,25.61
+2010,UZB,Uzbekistan,Country,Europe,2.004,2.85,29.68
+2010,CHN,China,Country,Western Pacific,1.498,2.94,49.04
+2010,DJI,Djibouti,Country,Eastern Mediterranean,2.25,3.02,25.51
+2010,KWT,Kuwait,Country,Eastern Mediterranean,1.932,3.02,36.04
+2010,KGZ,Kyrgyzstan,Country,Europe,2.256,3.03,25.53
+2010,BRA,Brazil,Country,Americas,1.26,3.1,59.35
+2010,CMR,Cameroon,Country,Africa,2.175,3.14,30.73
+2010,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.696,3.14,14.15
+2010,BDI,Burundi,Country,Africa,1.385,3.17,56.32
+2010,MDA,Republic of Moldova,Country,Europe,2.236,3.2,30.13
+2010,QAT,Qatar,Country,Eastern Mediterranean,2.173,3.26,33.33
+2010,SRB,Serbia,Country,Europe,0.824,3.31,75.11
+2010,BEN,Benin,Country,Africa,2.641,3.47,23.9
+2010,UKR,Ukraine,Country,Europe,1.039,3.49,70.23
+2010,MMR,Myanmar,Country,South-East Asia,2.647,3.53,25.0
+2010,BFA,Burkina Faso,Country,Africa,2.42,3.57,32.2
+2010,TKM,Turkmenistan,Country,Europe,1.52,3.58,57.55
+2010,YEM,Yemen,Country,Eastern Mediterranean,1.712,3.68,53.48
+2010,JPN,Japan,Country,Western Pacific,1.378,3.73,63.06
+2010,NGA,Nigeria,Country,Africa,2.961,3.73,20.63
+2010,VNM,Viet Nam,Country,Western Pacific,2.544,3.73,31.79
+2010,EGY,Egypt,Country,Eastern Mediterranean,0.982,3.74,73.75
+2010,GEO,Georgia,Country,Europe,1.948,3.79,48.59
+2010,DZA,Algeria,Country,Africa,1.946,3.8,48.78
+2010,BOL,Bolivia (Plurinational State of),Country,Americas,2.381,3.82,37.67
+2010,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.729,3.82,28.57
+2010,MHL,Marshall Islands,Country,Western Pacific,1.945,3.85,49.49
+2010,OMN,Oman,Country,Eastern Mediterranean,2.686,3.88,30.77
+2010,COM,Comoros,Country,Africa,1.899,3.9,51.32
+2010,GHA,Ghana,Country,Africa,3.08,3.96,22.23
+2010,ARG,Argentina,Country,Americas,1.226,3.99,69.27
+2010,CRI,Costa Rica,Country,Americas,2.343,4.01,41.57
+2010,STP,Sao Tome and Principe,Country,Africa,3.03,4.04,25.0
+2010,PER,Peru,Country,Americas,2.191,4.14,47.08
+2010,ATG,Antigua and Barbuda,Country,Americas,3.537,4.15,14.77
+2010,MDG,Madagascar,Country,Africa,0.983,4.15,76.31
+2010,KOR,Republic of Korea,Country,Western Pacific,1.581,4.16,61.99
+2010,BRN,Brunei Darussalam,Country,Western Pacific,1.95,4.2,53.57
+2010,CIV,Cote d'Ivoire,Country,Africa,2.873,4.23,32.07
+2010,BHS,Bahamas,Country,Americas,2.95,4.29,31.23
+2010,MKD,North Macedonia,Country,Europe,1.205,4.31,72.05
+2010,TUN,Tunisia,Country,Eastern Mediterranean,0.608,4.33,85.96
+2010,GAB,Gabon,Country,Africa,3.513,4.37,19.6
+2010,MDV,Maldives,Country,South-East Asia,3.017,4.41,31.58
+2010,VCT,Saint Vincent and the Grenadines,Country,Americas,3.864,4.53,14.71
+2010,ZMB,Zambia,Country,Africa,2.892,4.54,36.29
+2010,KNA,Saint Kitts and Nevis,Country,Americas,3.973,4.62,14.0
+2010,AND,Andorra,Country,Europe,1.973,4.7,58.02
+2010,ECU,Ecuador,Country,Americas,1.678,4.7,64.29
+2010,BIH,Bosnia and Herzegovina,Country,Europe,1.32,4.74,72.15
+2010,HND,Honduras,Country,Americas,2.954,4.84,38.97
+2010,IDN,Indonesia,Country,Western Pacific,2.239,4.88,54.11
+2010,ALB,Albania,Country,Europe,2.301,4.89,52.94
+2010,GUY,Guyana,Country,Americas,3.658,4.89,25.19
+2010,CHL,Chile,Country,Americas,1.179,4.99,76.37
+2010,JOR,Jordan,Country,Eastern Mediterranean,1.029,5.04,79.58
+2010,EST,Estonia,Country,Europe,0.883,5.07,82.58
+2010,BHR,Bahrain,Country,Eastern Mediterranean,3.707,5.19,28.57
+2010,CPV,Cabo Verde,Country,Africa,4.346,5.31,18.16
+2010,LCA,Saint Lucia,Country,Americas,3.945,5.37,26.54
+2010,SAU,Saudi Arabia,Country,Eastern Mediterranean,3.857,5.4,28.57
+2010,KEN,Kenya,Country,Africa,1.959,5.41,63.79
+2010,ARM,Armenia,Country,Europe,4.207,5.51,23.64
+2010,BLZ,Belize,Country,Americas,2.257,5.53,59.19
+2010,PLW,Palau,Country,Western Pacific,2.383,5.56,57.14
+2010,MLI,Mali,Country,Africa,3.915,5.57,29.71
+2010,MRT,Mauritania,Country,Africa,5.194,5.58,6.92
+2010,LVA,Latvia,Country,Europe,1.041,5.62,81.47
+2010,TTO,Trinidad and Tobago,Country,Americas,3.751,5.66,33.73
+2010,LBN,Lebanon,Country,Eastern Mediterranean,3.006,5.71,47.36
+2010,SLV,El Salvador,Country,Americas,2.584,5.72,54.83
+2010,WSM,Samoa,Country,Western Pacific,2.276,5.88,61.29
+2010,MEX,Mexico,Country,Americas,2.216,5.94,62.7
+2010,CYP,Cyprus,Country,Europe,1.661,5.95,72.08
+2010,SUR,Suriname,Country,Americas,3.01,6.01,49.92
+2010,NPL,Nepal,Country,South-East Asia,4.293,6.02,28.68
+2010,SVN,Slovenia,Country,Europe,1.457,6.04,75.87
+2010,MAR,Morocco,Country,Eastern Mediterranean,2.035,6.05,66.36
+2010,NRU,Naoero,Country,Western Pacific,3.592,6.23,42.34
+2010,IND,India,Country,South-East Asia,3.421,6.24,45.18
+2010,TZA,United Republic of Tanzania,Country,Africa,4.633,6.27,26.11
+2010,SVK,Slovakia,Country,Europe,1.051,6.29,83.29
+2010,TON,Tonga,Country,Western Pacific,2.755,6.31,56.34
+2010,GRD,Grenada,Country,Americas,3.228,6.39,49.48
+2010,POL,Poland,Country,Europe,0.877,6.44,86.38
+2010,TLS,Timor-Leste,Country,South-East Asia,6.47,6.47,0.0
+2010,GTM,Guatemala,Country,Americas,3.124,6.48,51.79
+2010,LUX,Luxembourg,Country,Europe,1.943,6.49,70.06
+2010,LTU,Lithuania,Country,Europe,1.498,6.54,77.1
+2010,URY,Uruguay,Country,Americas,1.855,6.7,72.32
+2010,MUS,Mauritius,Country,Africa,1.935,6.84,71.71
+2010,HRV,Croatia,Country,Europe,1.944,6.87,71.7
+2010,GRC,Greece,Country,Europe,0.988,6.91,85.7
+2010,THA,Thailand,Country,South-East Asia,2.169,6.94,68.74
+2010,BRB,Barbados,Country,Americas,3.649,6.99,47.8
+2010,HUN,Hungary,Country,Europe,1.477,7.01,78.93
+2010,ESP,Spain,Country,Europe,1.542,7.09,78.25
+2010,CZE,Czechia,Country,Europe,1.534,7.18,78.63
+2010,TUR,Türkiye,Country,Europe,1.566,7.2,78.25
+2010,BWA,Botswana,Country,Africa,3.224,7.23,55.41
+2010,TUV,Tuvalu,Country,Western Pacific,6.149,7.3,15.77
+2010,ERI,Eritrea,Country,Africa,3.263,7.31,55.36
+2010,SMR,San Marino,Country,Europe,1.891,7.32,74.17
+2010,ZAF,South Africa,Country,Africa,3.785,7.32,48.29
+2010,FIN,Finland,Country,Europe,1.584,7.42,78.65
+2010,DNK,Denmark,Country,Europe,1.869,7.43,74.84
+2010,ITA,Italy,Country,Europe,1.865,7.51,75.17
+2010,AUT,Austria,Country,Europe,2.037,7.55,73.02
+2010,CHE,Switzerland,Country,Europe,2.769,7.59,63.52
+2010,ISR,Israel,Country,Europe,2.211,7.98,72.29
+2010,SWE,Sweden,Country,Europe,2.309,8.13,71.6
+2010,NAM,Namibia,Country,Africa,4.388,8.16,46.22
+2010,VUT,Vanuatu,Country,Western Pacific,3.546,8.17,56.6
+2010,USA,United States of America,Country,Americas,4.503,8.23,45.28
+2010,PRT,Portugal,Country,Europe,1.778,8.46,78.98
+2010,KIR,Kiribati,Country,Western Pacific,3.24,8.64,62.5
+2010,NLD,Netherlands (Kingdom of the),Country,Europe,2.389,8.84,72.97
+2010,SDN,Sudan,Country,Eastern Mediterranean,2.723,8.85,69.23
+2010,SWZ,Eswatini,Country,Africa,4.963,8.99,44.79
+2010,BEL,Belgium,Country,Europe,2.14,9.05,76.35
+2010,MYS,Malaysia,Country,Western Pacific,4.407,9.24,52.3
+2010,BGR,Bulgaria,Country,Europe,1.077,9.53,88.7
+2010,DEU,Germany,Country,Europe,2.477,9.55,74.06
+2010,ROU,Romania,Country,Europe,1.643,9.77,83.18
+2010,FRA,France,Country,Europe,1.937,9.88,80.39
+2010,DOM,Dominican Republic,Country,Americas,4.255,9.92,57.11
+2010,GLB,Global Average,Benchmark,Global,2.416,5.493,48.77
+2012,COK,Cook Islands,Country,Western Pacific,,,71.08
+2012,CUB,Cuba,Country,Americas,,,77.86
+2012,NIU,Niue,Country,Western Pacific,,,66.53
+2012,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,,,30.0
+2012,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,71.04
+2012,ZWE,Zimbabwe,Country,Africa,,,33.04
+2012,IRQ,Iraq,Country,Eastern Mediterranean,0.79,0.8,1.27
+2012,PRY,Paraguay,Country,Americas,0.745,0.9,17.26
+2012,PHL,Philippines,Country,Western Pacific,0.747,1.05,28.85
+2012,BLR,Belarus,Country,Europe,0.799,1.24,35.55
+2012,AFG,Afghanistan,Country,Eastern Mediterranean,1.307,1.34,2.45
+2012,MNG,Mongolia,Country,Western Pacific,0.815,1.61,49.36
+2012,BGD,Bangladesh,Country,South-East Asia,0.75,1.63,54.0
+2012,PAK,Pakistan,Country,Eastern Mediterranean,0.66,1.65,60.0
+2012,KHM,Cambodia,Country,Western Pacific,1.392,1.68,17.13
+2012,GMB,Gambia,Country,Africa,1.101,1.78,38.14
+2012,GIN,Guinea,Country,Africa,1.605,1.8,10.81
+2012,COG,Congo,Country,Africa,1.241,1.83,32.17
+2012,MOZ,Mozambique,Country,Africa,1.388,1.83,24.13
+2012,ETH,Ethiopia,Country,Africa,1.157,1.88,38.47
+2012,PRT,Portugal,Country,Europe,2.42,10.09,76.02
+2012,MLT,Malta,Country,Europe,2.391,10.36,76.92
+2012,LSO,Lesotho,Country,Africa,5.794,10.59,45.29
+2012,FRA,France,Country,Europe,2.135,10.6,79.86
+2012,ISL,Iceland,Country,Europe,4.605,10.7,56.96
+2012,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,1.855,11.06,83.23
+2012,FJI,Fiji,Country,Western Pacific,6.65,11.24,40.84
+2012,BRN,Brunei Darussalam,Country,Western Pacific,3.648,11.25,67.57
+2012,NOR,Norway,Country,Europe,3.18,11.69,72.8
+2012,PAN,Panama,Country,Americas,5.152,11.85,56.52
+2012,ROU,Romania,Country,Europe,3.258,12.18,73.25
+2012,AUS,Australia,Country,Western Pacific,4.912,12.37,60.29
+2012,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.64,13.28,80.12
+2012,SYC,Seychelles,Country,Africa,4.43,13.29,66.67
+2012,NZL,New Zealand,Country,Western Pacific,3.762,14.48,74.02
+2012,LKA,Sri Lanka,Country,South-East Asia,4.091,16.03,74.48
+2012,IRL,Ireland,Country,Europe,3.449,16.4,78.97
+2012,JAM,Jamaica,Country,Americas,9.181,17.02,46.06
+2012,SGP,Singapore,Country,Western Pacific,6.225,18.15,65.7
+2012,SLE,Sierra Leone,Country,Africa,1.733,2.0,13.37
+2012,KAZ,Kazakhstan,Country,Europe,1.429,2.04,29.95
+2012,TJK,Tajikistan,Country,Europe,1.44,2.08,30.78
+2012,NER,Niger,Country,Africa,1.458,2.11,30.92
+2012,GNQ,Equatorial Guinea,Country,Africa,1.529,2.13,28.22
+2012,SEN,Senegal,Country,Africa,1.493,2.14,30.25
+2012,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,2.121,2.18,2.7
+2012,TCD,Chad,Country,Africa,1.708,2.23,23.41
+2012,TGO,Togo,Country,Africa,1.767,2.27,22.18
+2012,GNB,Guinea-Bissau,Country,Africa,1.894,2.28,16.94
+2012,KGZ,Kyrgyzstan,Country,Europe,1.606,2.35,31.64
+2012,COD,Democratic Republic of the Congo,Country,Africa,1.46,2.41,39.4
+2012,LBY,Libya,Country,Eastern Mediterranean,1.999,2.43,17.75
+2012,BDI,Burundi,Country,Africa,1.167,2.52,53.69
+2012,COL,Colombia,Country,Americas,1.27,2.57,50.59
+2012,FSM,Micronesia (Federated States of),Country,Western Pacific,1.044,2.61,60.0
+2012,DJI,Djibouti,Country,Eastern Mediterranean,1.941,2.72,28.65
+2012,SOM,Somalia,Country,Eastern Mediterranean,2.638,2.76,4.43
+2012,RWA,Rwanda,Country,Africa,1.93,2.93,34.12
+2012,UGA,Uganda,Country,Africa,1.91,2.95,35.25
+2012,CMR,Cameroon,Country,Africa,1.944,2.96,34.33
+2012,MMR,Myanmar,Country,South-East Asia,1.48,2.96,50.0
+2012,DZA,Algeria,Country,Africa,1.466,2.98,50.79
+2012,VNM,Viet Nam,Country,Western Pacific,2.033,2.98,31.79
+2012,LBR,Liberia,Country,Africa,2.405,3.01,20.1
+2012,RUS,Russian Federation,Country,Europe,1.815,3.05,40.48
+2012,BEN,Benin,Country,Africa,2.408,3.07,21.57
+2012,GHA,Ghana,Country,Africa,2.375,3.08,22.88
+2012,NGA,Nigeria,Country,Africa,2.445,3.08,20.63
+2012,UZB,Uzbekistan,Country,Europe,2.192,3.1,29.3
+2012,AGO,Angola,Country,Africa,2.383,3.11,23.37
+2012,BFA,Burkina Faso,Country,Africa,2.115,3.12,32.2
+2012,KWT,Kuwait,Country,Eastern Mediterranean,2.334,3.28,28.83
+2012,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.633,3.29,19.97
+2012,STP,Sao Tome and Principe,Country,Africa,2.513,3.35,25.0
+2012,AZE,Azerbaijan,Country,Europe,2.753,3.38,18.56
+2012,BRA,Brazil,Country,Americas,1.26,3.42,63.15
+2012,DMA,Dominica,Country,Americas,2.627,3.43,23.4
+2012,MDG,Madagascar,Country,Africa,0.834,3.52,76.31
+2012,COM,Comoros,Country,Africa,1.741,3.58,51.38
+2012,QAT,Qatar,Country,Eastern Mediterranean,2.8,3.6,22.22
+2012,GEO,Georgia,Country,Europe,1.919,3.61,46.83
+2012,CHN,China,Country,Western Pacific,1.822,3.63,49.82
+2012,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.73,3.64,25.0
+2012,ZMB,Zambia,Country,Africa,2.402,3.77,36.29
+2012,GUY,Guyana,Country,Americas,2.835,3.79,25.19
+2012,UKR,Ukraine,Country,Europe,1.261,3.82,67.0
+2012,YEM,Yemen,Country,Eastern Mediterranean,1.826,3.85,52.57
+2012,ARG,Argentina,Country,Americas,1.164,3.87,69.93
+2012,MDA,Republic of Moldova,Country,Europe,2.211,3.93,43.74
+2012,ATG,Antigua and Barbuda,Country,Americas,3.357,3.95,15.0
+2012,GAB,Gabon,Country,Africa,3.135,3.95,20.64
+2012,CIV,Cote d'Ivoire,Country,Africa,2.696,3.97,32.08
+2012,KEN,Kenya,Country,Africa,2.043,3.99,48.79
+2012,KOR,Republic of Korea,Country,Western Pacific,1.52,4.0,61.99
+2012,SRB,Serbia,Country,Europe,0.783,4.07,80.76
+2012,BOL,Bolivia (Plurinational State of),Country,Americas,2.486,4.1,39.36
+2012,EGY,Egypt,Country,Eastern Mediterranean,1.136,4.13,72.5
+2012,MNE,Montenegro,Country,Europe,0.814,4.18,80.53
+2012,MHL,Marshall Islands,Country,Western Pacific,2.55,4.23,39.71
+2012,MKD,North Macedonia,Country,Europe,1.217,4.23,71.22
+2012,SLB,Solomon Islands,Country,Western Pacific,3.099,4.37,29.09
+2012,OMN,Oman,Country,Eastern Mediterranean,3.43,4.41,22.22
+2012,PER,Peru,Country,Americas,2.55,4.41,42.18
+2012,VCT,Saint Vincent and the Grenadines,Country,Americas,3.742,4.53,17.4
+2012,TUN,Tunisia,Country,Eastern Mediterranean,1.025,4.62,77.81
+2012,MRT,Mauritania,Country,Africa,4.484,4.67,3.99
+2012,MLI,Mali,Country,Africa,3.109,4.69,33.7
+2012,TZA,United Republic of Tanzania,Country,Africa,3.6,5.01,28.15
+2012,PLW,Palau,Country,Western Pacific,2.152,5.02,57.14
+2012,CPV,Cabo Verde,Country,Africa,4.08,5.07,19.53
+2012,JPN,Japan,Country,Western Pacific,1.832,5.16,64.49
+2012,BLZ,Belize,Country,Americas,3.251,5.17,37.11
+2012,KNA,Saint Kitts and Nevis,Country,Americas,4.133,5.18,20.22
+2012,JOR,Jordan,Country,Eastern Mediterranean,1.221,5.2,76.52
+2012,ALB,Albania,Country,Europe,2.079,5.29,60.7
+2012,HND,Honduras,Country,Americas,3.49,5.29,34.03
+2012,ARM,Armenia,Country,Europe,4.05,5.4,25.0
+2012,TLS,Timor-Leste,Country,South-East Asia,3.59,5.4,33.51
+2012,IDN,Indonesia,Country,Western Pacific,2.722,5.49,50.41
+2012,BIH,Bosnia and Herzegovina,Country,Europe,1.39,5.52,74.82
+2012,NPL,Nepal,Country,South-East Asia,3.9,5.56,29.86
+2012,SAU,Saudi Arabia,Country,Eastern Mediterranean,4.449,5.72,22.22
+2012,SLV,El Salvador,Country,Americas,2.725,5.79,52.94
+2012,TTO,Trinidad and Tobago,Country,Americas,3.951,5.86,32.58
+2012,CRI,Costa Rica,Country,Americas,2.441,5.88,58.48
+2012,AND,Andorra,Country,Europe,2.611,5.97,56.27
+2012,MAR,Morocco,Country,Eastern Mediterranean,1.934,5.99,67.71
+2012,URY,Uruguay,Country,Americas,1.875,5.99,68.7
+2012,LVA,Latvia,Country,Europe,1.26,6.04,79.14
+2012,GTM,Guatemala,Country,Americas,3.087,6.05,48.98
+2012,WSM,Samoa,Country,Western Pacific,2.433,6.05,59.79
+2012,MWI,Malawi,Country,Africa,4.582,6.16,25.61
+2012,LBN,Lebanon,Country,Eastern Mediterranean,3.519,6.22,43.42
+2012,KIR,Kiribati,Country,Western Pacific,3.019,6.3,52.08
+2012,ECU,Ecuador,Country,Americas,1.708,6.33,73.02
+2012,THA,Thailand,Country,South-East Asia,1.93,6.48,70.22
+2012,BHR,Bahrain,Country,Eastern Mediterranean,5.208,6.51,20.0
+2012,CHL,Chile,Country,Americas,1.204,6.52,81.54
+2012,LTU,Lithuania,Country,Europe,1.64,6.64,75.3
+2012,SUR,Suriname,Country,Americas,2.631,6.66,60.49
+2012,SVN,Slovenia,Country,Europe,1.409,6.8,79.28
+2012,SVK,Slovakia,Country,Europe,1.213,6.81,82.19
+2012,BRB,Barbados,Country,Americas,3.564,6.88,48.2
+2012,LCA,Saint Lucia,Country,Americas,4.857,6.93,29.91
+2012,MDV,Maldives,Country,South-East Asia,3.615,7.04,48.65
+2012,MEX,Mexico,Country,Americas,2.242,7.08,68.34
+2012,TUV,Tuvalu,Country,Western Pacific,6.031,7.08,14.82
+2012,SDN,Sudan,Country,Eastern Mediterranean,2.168,7.09,69.42
+2012,TON,Tonga,Country,Western Pacific,3.515,7.31,51.91
+2012,ZAF,South Africa,Country,Africa,3.71,7.33,49.39
+2012,IND,India,Country,South-East Asia,4.28,7.35,41.77
+2012,HRV,Croatia,Country,Europe,2.163,7.46,71.0
+2012,LUX,Luxembourg,Country,Europe,2.203,7.49,70.59
+2012,NAM,Namibia,Country,Africa,3.913,7.53,48.04
+2012,CYP,Cyprus,Country,Europe,1.825,7.56,75.86
+2012,CZE,Czechia,Country,Europe,1.695,7.57,77.61
+2012,SMR,San Marino,Country,Europe,1.981,7.67,74.17
+2012,BHS,Bahamas,Country,Americas,5.652,7.68,26.4
+2012,DNK,Denmark,Country,Europe,1.592,7.7,79.33
+2012,FIN,Finland,Country,Europe,1.553,7.72,79.88
+2012,GRC,Greece,Country,Europe,1.399,7.84,82.16
+2012,TKM,Turkmenistan,Country,Europe,5.541,7.91,29.95
+2012,AUT,Austria,Country,Europe,2.08,8.07,74.23
+2012,HUN,Hungary,Country,Europe,1.34,8.2,83.66
+2012,CHE,Switzerland,Country,Europe,3.11,8.22,62.16
+2012,ISR,Israel,Country,Europe,1.885,8.23,77.1
+2012,USA,United States of America,Country,Americas,4.731,8.29,42.93
+2012,SWE,Sweden,Country,Europe,2.18,8.33,73.83
+2012,VUT,Vanuatu,Country,Western Pacific,3.536,8.45,58.15
+2012,EST,Estonia,Country,Europe,1.968,8.51,76.88
+2012,BWA,Botswana,Country,Africa,4.319,8.55,49.49
+2012,MYS,Malaysia,Country,Western Pacific,3.664,8.58,57.3
+2012,ERI,Eritrea,Country,Africa,3.879,8.69,55.36
+2012,POL,Poland,Country,Europe,1.798,8.81,79.59
+2012,TUR,Türkiye,Country,Europe,1.746,8.84,80.25
+2012,MUS,Mauritius,Country,Africa,2.396,8.95,73.23
+2012,BEL,Belgium,Country,Europe,2.22,9.28,76.08
+2012,ESP,Spain,Country,Europe,1.982,9.3,78.69
+2012,DOM,Dominican Republic,Country,Americas,3.876,9.36,58.59
+2012,CAN,Canada,Country,Americas,3.367,9.47,64.45
+2012,NLD,Netherlands (Kingdom of the),Country,Europe,2.687,9.66,72.18
+2012,ITA,Italy,Country,Europe,2.403,9.68,75.18
+2012,DEU,Germany,Country,Europe,2.635,9.77,73.03
+2012,BGR,Bulgaria,Country,Europe,1.608,9.79,83.58
+2012,PNG,Papua New Guinea,Country,Western Pacific,6.133,9.79,37.35
+2012,GLB,Global Average,Benchmark,Global,2.565,5.847,48.93
+2014,COK,Cook Islands,Country,Western Pacific,,,60.81
+2014,CUB,Cuba,Country,Americas,,,70.0
+2014,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2014,NIU,Niue,Country,Western Pacific,,,82.39
+2014,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,71.04
+2014,ZWE,Zimbabwe,Country,Africa,,,36.12
+2014,IRQ,Iraq,Country,Eastern Mediterranean,0.759,0.81,6.35
+2014,PRY,Paraguay,Country,Americas,0.706,0.84,16.0
+2014,BGD,Bangladesh,Country,South-East Asia,0.651,1.55,58.0
+2014,KHM,Cambodia,Country,Western Pacific,1.306,1.68,22.24
+2014,AFG,Afghanistan,Country,Eastern Mediterranean,1.228,1.7,27.75
+2014,PHL,Philippines,Country,Western Pacific,0.461,1.79,74.27
+2014,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,1.614,1.82,11.31
+2014,BEL,Belgium,Country,Europe,2.413,10.02,75.92
+2014,MYS,Malaysia,Country,Western Pacific,4.491,10.06,55.36
+2014,HUN,Hungary,Country,Europe,2.315,10.18,77.26
+2014,MUS,Mauritius,Country,Africa,2.8,10.19,72.52
+2014,POL,Poland,Country,Europe,2.042,10.36,80.29
+2014,BHS,Bahamas,Country,Americas,5.96,10.43,42.86
+2014,ISR,Israel,Country,Europe,1.965,10.5,81.29
+2014,PRT,Portugal,Country,Europe,2.687,10.54,74.51
+2014,NLD,Netherlands (Kingdom of the),Country,Europe,2.825,10.62,73.4
+2014,FJI,Fiji,Country,Western Pacific,6.351,11.36,44.09
+2014,MLT,Malta,Country,Europe,2.882,11.36,74.63
+2014,FRA,France,Country,Europe,2.34,11.88,80.3
+2014,SYC,Seychelles,Country,Africa,2.475,12.2,79.71
+2014,ISL,Iceland,Country,Europe,5.376,12.33,56.4
+2014,PAN,Panama,Country,Americas,5.37,12.35,56.52
+2014,ROU,Romania,Country,Europe,3.13,12.73,75.41
+2014,NOR,Norway,Country,Europe,3.98,12.77,68.83
+2014,ERI,Eritrea,Country,Africa,5.933,13.29,55.36
+2014,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,2.225,13.34,83.32
+2014,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.617,14.67,82.16
+2014,AUS,Australia,Country,Western Pacific,6.616,15.3,56.76
+2014,NZL,New Zealand,Country,Western Pacific,3.697,16.22,77.21
+2014,IRL,Ireland,Country,Europe,3.796,17.1,77.8
+2014,JAM,Jamaica,Country,Americas,10.145,17.78,42.94
+2014,LKA,Sri Lanka,Country,South-East Asia,5.351,17.83,69.99
+2014,BLR,Belarus,Country,Europe,0.972,2.03,52.13
+2014,PAK,Pakistan,Country,Eastern Mediterranean,0.798,2.03,60.7
+2014,MOZ,Mozambique,Country,Africa,1.473,2.13,30.86
+2014,GNQ,Equatorial Guinea,Country,Africa,1.509,2.19,31.09
+2014,COD,Democratic Republic of the Congo,Country,Africa,1.155,2.21,47.76
+2014,LBR,Liberia,Country,Africa,1.717,2.23,23.01
+2014,TGO,Togo,Country,Africa,1.703,2.23,23.61
+2014,GNB,Guinea-Bissau,Country,Africa,1.858,2.28,18.51
+2014,COG,Congo,Country,Africa,1.486,2.38,37.55
+2014,TCD,Chad,Country,Africa,1.691,2.4,29.55
+2014,CAF,Central African Republic,Country,Africa,1.701,2.53,32.77
+2014,MHL,Marshall Islands,Country,Western Pacific,0.971,2.59,62.5
+2014,MMR,Myanmar,Country,South-East Asia,1.295,2.59,50.0
+2014,DJI,Djibouti,Country,Eastern Mediterranean,1.884,2.64,28.65
+2014,FSM,Micronesia (Federated States of),Country,Western Pacific,1.128,2.67,57.74
+2014,NER,Niger,Country,Africa,1.925,2.67,27.91
+2014,SLE,Sierra Leone,Country,Africa,2.327,2.68,13.16
+2014,SEN,Senegal,Country,Africa,1.742,2.69,35.25
+2014,COL,Colombia,Country,Americas,1.365,2.7,49.44
+2014,GHA,Ghana,Country,Africa,1.964,2.74,28.31
+2014,TUV,Tuvalu,Country,Western Pacific,1.926,2.74,29.69
+2014,UGA,Uganda,Country,Africa,1.784,2.79,36.06
+2014,CMR,Cameroon,Country,Africa,1.877,2.83,33.66
+2014,KAZ,Kazakhstan,Country,Europe,1.736,2.86,39.29
+2014,MNG,Mongolia,Country,Western Pacific,0.953,2.93,67.47
+2014,RWA,Rwanda,Country,Africa,1.993,2.96,32.67
+2014,SGP,Singapore,Country,Western Pacific,6.774,20.06,66.23
+2014,STP,Sao Tome and Principe,Country,Africa,2.25,3.0,25.0
+2014,ETH,Ethiopia,Country,Africa,2.206,3.02,26.94
+2014,BEN,Benin,Country,Africa,2.384,3.04,21.57
+2014,KGZ,Kyrgyzstan,Country,Europe,1.887,3.07,38.54
+2014,NGA,Nigeria,Country,Africa,2.437,3.07,20.63
+2014,TJK,Tajikistan,Country,Europe,2.342,3.16,25.88
+2014,UZB,Uzbekistan,Country,Europe,2.132,3.16,32.53
+2014,GMB,Gambia,Country,Africa,1.74,3.21,45.8
+2014,BFA,Burkina Faso,Country,Africa,2.183,3.22,32.2
+2014,DMA,Dominica,Country,Americas,2.551,3.33,23.4
+2014,VNM,Viet Nam,Country,Western Pacific,2.367,3.47,31.79
+2014,COM,Comoros,Country,Africa,1.702,3.5,51.38
+2014,ZMB,Zambia,Country,Africa,2.437,3.68,33.79
+2014,CIV,Cote d'Ivoire,Country,Africa,2.495,3.71,32.74
+2014,YEM,Yemen,Country,Eastern Mediterranean,1.737,3.76,53.8
+2014,UKR,Ukraine,Country,Europe,0.721,3.8,81.03
+2014,KEN,Kenya,Country,Africa,1.972,3.85,48.79
+2014,AGO,Angola,Country,Africa,2.954,3.87,23.66
+2014,CHN,China,Country,Western Pacific,1.874,3.87,51.57
+2014,GUY,Guyana,Country,Americas,2.918,3.9,25.19
+2014,LAO,Lao People's Democratic Republic,Country,Western Pacific,3.236,3.91,17.25
+2014,KOR,Republic of Korea,Country,Western Pacific,1.494,3.93,61.99
+2014,BRA,Brazil,Country,Americas,1.406,4.01,64.94
+2014,GEO,Georgia,Country,Europe,2.041,4.03,49.35
+2014,ARG,Argentina,Country,Americas,1.221,4.05,69.84
+2014,QAT,Qatar,Country,Eastern Mediterranean,3.24,4.05,20.0
+2014,KWT,Kuwait,Country,Eastern Mediterranean,3.099,4.06,23.68
+2014,RUS,Russian Federation,Country,Europe,2.158,4.12,47.63
+2014,MDA,Republic of Moldova,Country,Europe,2.052,4.16,50.67
+2014,GAB,Gabon,Country,Africa,3.381,4.26,20.64
+2014,AZE,Azerbaijan,Country,Europe,3.606,4.36,17.3
+2014,MKD,North Macedonia,Country,Europe,1.201,4.38,72.59
+2014,OMN,Oman,Country,Eastern Mediterranean,3.461,4.45,22.22
+2014,BDI,Burundi,Country,Africa,2.553,4.46,42.75
+2014,MLI,Mali,Country,Africa,3.086,4.62,33.2
+2014,EGY,Egypt,Country,Eastern Mediterranean,1.247,4.64,73.13
+2014,ARE,United Arab Emirates,Country,Eastern Mediterranean,3.712,4.64,20.0
+2014,TLS,Timor-Leste,Country,South-East Asia,3.112,4.68,33.51
+2014,MDG,Madagascar,Country,Africa,0.921,4.71,80.44
+2014,BOL,Bolivia (Plurinational State of),Country,Americas,2.88,4.75,39.36
+2014,TUN,Tunisia,Country,Eastern Mediterranean,1.222,4.81,74.6
+2014,VCT,Saint Vincent and the Grenadines,Country,Americas,4.084,4.87,16.14
+2014,ATG,Antigua and Barbuda,Country,Americas,4.192,4.91,14.63
+2014,LBY,Libya,Country,Eastern Mediterranean,4.403,4.93,10.68
+2014,CPV,Cabo Verde,Country,Africa,4.04,5.02,19.53
+2014,BLZ,Belize,Country,Americas,3.163,5.03,37.11
+2014,PER,Peru,Country,Americas,3.133,5.04,37.83
+2014,ARM,Armenia,Country,Europe,3.42,5.13,33.33
+2014,DZA,Algeria,Country,Africa,3.343,5.15,35.08
+2014,JOR,Jordan,Country,Eastern Mediterranean,0.866,5.18,83.29
+2014,SLB,Solomon Islands,Country,Western Pacific,3.717,5.18,28.24
+2014,LCA,Saint Lucia,Country,Americas,1.934,5.21,62.88
+2014,MNE,Montenegro,Country,Europe,1.167,5.28,77.89
+2014,HND,Honduras,Country,Americas,3.345,5.29,36.76
+2014,KNA,Saint Kitts and Nevis,Country,Americas,4.232,5.29,20.0
+2014,URY,Uruguay,Country,Americas,1.759,5.29,66.75
+2014,JPN,Japan,Country,Western Pacific,1.91,5.36,64.36
+2014,IDN,Indonesia,Country,Western Pacific,2.559,5.47,53.21
+2014,SRB,Serbia,Country,Europe,1.256,5.69,77.92
+2014,SLV,El Salvador,Country,Americas,2.782,5.86,52.52
+2014,GRD,Grenada,Country,Americas,3.061,5.86,47.76
+2014,TZA,United Republic of Tanzania,Country,Africa,4.204,6.05,30.51
+2014,ALB,Albania,Country,Europe,2.202,6.13,64.08
+2014,KIR,Kiribati,Country,Western Pacific,3.153,6.21,49.22
+2014,CHL,Chile,Country,Americas,1.079,6.29,82.85
+2014,MRT,Mauritania,Country,Africa,5.926,6.36,6.82
+2014,MWI,Malawi,Country,Africa,5.092,6.42,20.68
+2014,WSM,Samoa,Country,Western Pacific,2.902,6.5,55.36
+2014,MDV,Maldives,Country,South-East Asia,2.23,6.52,65.79
+2014,CRI,Costa Rica,Country,Americas,2.836,6.54,56.64
+2014,SAU,Saudi Arabia,Country,Eastern Mediterranean,5.256,6.57,20.0
+2014,BHR,Bahrain,Country,Eastern Mediterranean,5.272,6.59,20.0
+2014,MAR,Morocco,Country,Eastern Mediterranean,1.947,6.59,70.46
+2014,NPL,Nepal,Country,South-East Asia,4.838,6.7,27.79
+2014,AND,Andorra,Country,Europe,2.141,6.73,68.18
+2014,PLW,Palau,Country,Western Pacific,2.27,6.81,66.67
+2014,SDN,Sudan,Country,Eastern Mediterranean,2.082,6.81,69.42
+2014,TTO,Trinidad and Tobago,Country,Americas,4.829,6.86,29.61
+2014,SUR,Suriname,Country,Americas,3.1,6.94,55.33
+2014,THA,Thailand,Country,South-East Asia,1.897,7.06,73.13
+2014,LTU,Lithuania,Country,Europe,1.714,7.07,75.76
+2014,SVK,Slovakia,Country,Europe,1.307,7.08,81.54
+2014,TON,Tonga,Country,Western Pacific,2.772,7.11,61.01
+2014,LBN,Lebanon,Country,Eastern Mediterranean,4.078,7.18,43.21
+2014,ECU,Ecuador,Country,Americas,2.141,7.23,70.39
+2014,BIH,Bosnia and Herzegovina,Country,Europe,1.3,7.26,82.1
+2014,GTM,Guatemala,Country,Americas,3.77,7.39,48.98
+2014,MEX,Mexico,Country,Americas,2.44,7.53,67.6
+2014,ZAF,South Africa,Country,Africa,3.853,7.53,48.83
+2014,SMR,San Marino,Country,Europe,1.984,7.68,74.17
+2014,CZE,Czechia,Country,Europe,1.748,7.74,77.42
+2014,LUX,Luxembourg,Country,Europe,2.315,7.78,70.24
+2014,SVN,Slovenia,Country,Europe,1.561,7.97,80.41
+2014,BRB,Barbados,Country,Americas,4.741,8.18,42.04
+2014,LVA,Latvia,Country,Europe,1.897,8.21,76.89
+2014,USA,United States of America,Country,Americas,4.74,8.25,42.54
+2014,CYP,Cyprus,Country,Europe,1.865,8.28,77.47
+2014,VUT,Vanuatu,Country,Western Pacific,3.552,8.29,57.15
+2014,DNK,Denmark,Country,Europe,2.106,8.34,74.75
+2014,FIN,Finland,Country,Europe,1.54,8.34,81.53
+2014,BWA,Botswana,Country,Africa,3.761,8.43,55.39
+2014,AUT,Austria,Country,Europe,2.21,8.5,74.0
+2014,HRV,Croatia,Country,Europe,2.128,8.6,75.26
+2014,SWZ,Eswatini,Country,Africa,4.665,8.67,46.19
+2014,CHE,Switzerland,Country,Europe,3.43,8.84,61.2
+2014,GRC,Greece,Country,Europe,1.774,8.85,79.95
+2014,EST,Estonia,Country,Europe,2.051,9.01,77.24
+2014,SWE,Sweden,Country,Europe,2.817,9.04,68.84
+2014,NAM,Namibia,Country,Africa,5.274,9.1,42.04
+2014,LSO,Lesotho,Country,Africa,4.971,9.24,46.2
+2014,BGR,Bulgaria,Country,Europe,1.337,9.27,85.58
+2014,TKM,Turkmenistan,Country,Europe,6.916,9.36,26.11
+2014,IND,India,Country,South-East Asia,5.553,9.46,41.3
+2014,ITA,Italy,Country,Europe,2.315,9.52,75.68
+2014,TUR,Türkiye,Country,Europe,1.708,9.56,82.13
+2014,PNG,Papua New Guinea,Country,Western Pacific,6.204,9.62,35.51
+2014,DEU,Germany,Country,Europe,2.661,9.82,72.9
+2014,ESP,Spain,Country,Europe,2.147,9.94,78.4
+2014,DOM,Dominican Republic,Country,Americas,4.092,9.95,58.87
+2014,CAN,Canada,Country,Americas,3.014,9.98,69.8
+2014,GLB,Global Average,Benchmark,Global,2.737,6.369,50.56
+2016,CAF,Central African Republic,Country,Africa,,,0.0
+2016,COK,Cook Islands,Country,Western Pacific,,,74.02
+2016,CUB,Cuba,Country,Americas,,,70.44
+2016,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2016,NIU,Niue,Country,Western Pacific,,,84.23
+2016,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,,,38.5
+2016,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,73.04
+2016,ZWE,Zimbabwe,Country,Africa,,,35.9
+2016,PRY,Paraguay,Country,Americas,0.876,1.06,17.4
+2016,IRQ,Iraq,Country,Eastern Mediterranean,1.246,1.33,6.35
+2016,GIN,Guinea,Country,Africa,1.476,1.76,16.11
+2016,KHM,Cambodia,Country,Western Pacific,1.339,1.79,25.2
+2016,LBR,Liberia,Country,Africa,1.504,1.96,23.26
+2016,ESP,Spain,Country,Europe,2.171,10.0,78.29
+2016,MUS,Mauritius,Country,Africa,3.051,10.25,70.23
+2016,NRU,Naoero,Country,Western Pacific,5.088,10.28,50.51
+2016,TUR,Türkiye,Country,Europe,1.746,10.3,83.05
+2016,IND,India,Country,South-East Asia,4.873,10.31,52.74
+2016,DEU,Germany,Country,Europe,3.109,10.5,70.39
+2016,BEL,Belgium,Country,Europe,2.592,10.67,75.71
+2016,BHR,Bahrain,Country,Eastern Mediterranean,9.386,10.83,13.33
+2016,SUR,Suriname,Country,Americas,3.939,10.85,63.7
+2016,PRT,Portugal,Country,Europe,2.875,10.87,73.55
+2016,POL,Poland,Country,Europe,2.398,11.02,78.24
+2016,NLD,Netherlands (Kingdom of the),Country,Europe,3.069,11.04,72.2
+2016,CAN,Canada,Country,Americas,3.778,11.18,66.21
+2016,HUN,Hungary,Country,Europe,2.995,11.31,73.52
+2016,FRA,France,Country,Europe,2.307,11.71,80.3
+2016,MLT,Malta,Country,Europe,2.61,11.86,77.99
+2016,PAN,Panama,Country,Americas,5.161,11.87,56.52
+2016,ISL,Iceland,Country,Europe,5.296,11.91,55.53
+2016,ISR,Israel,Country,Europe,2.904,12.18,76.16
+2016,BHS,Bahamas,Country,Americas,7.449,12.52,40.5
+2016,ECU,Ecuador,Country,Americas,3.338,12.75,73.82
+2016,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,2.183,12.81,82.96
+2016,PNG,Papua New Guinea,Country,Western Pacific,8.144,12.9,36.87
+2016,ROU,Romania,Country,Europe,3.755,13.33,71.83
+2016,MYS,Malaysia,Country,Western Pacific,6.671,14.11,52.72
+2016,NOR,Norway,Country,Europe,5.057,14.89,66.04
+2016,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,3.093,15.86,80.5
+2016,TKM,Turkmenistan,Country,Europe,12.174,16.64,26.84
+2016,FJI,Fiji,Country,Western Pacific,10.263,16.69,38.51
+2016,IRL,Ireland,Country,Europe,3.85,17.71,78.26
+2016,SYC,Seychelles,Country,Africa,5.187,17.74,70.76
+2016,AUS,Australia,Country,Western Pacific,7.517,18.92,60.27
+2016,SGP,Singapore,Country,Western Pacific,6.565,19.44,66.23
+2016,JAM,Jamaica,Country,Americas,11.01,19.83,44.48
+2016,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,1.303,2.0,34.84
+2016,SOM,Somalia,Country,Eastern Mediterranean,1.93,2.02,4.46
+2016,MOZ,Mozambique,Country,Africa,1.427,2.08,31.39
+2016,SLE,Sierra Leone,Country,Africa,1.85,2.13,13.16
+2016,BLR,Belarus,Country,Europe,1.137,2.21,48.54
+2016,BGD,Bangladesh,Country,South-East Asia,0.782,2.3,66.0
+2016,ETH,Ethiopia,Country,Africa,1.79,2.45,26.94
+2016,AFG,Afghanistan,Country,Eastern Mediterranean,2.039,2.56,20.37
+2016,NER,Niger,Country,Africa,1.67,2.58,35.27
+2016,DJI,Djibouti,Country,Eastern Mediterranean,1.849,2.59,28.6
+2016,SEN,Senegal,Country,Africa,1.65,2.65,37.75
+2016,PAK,Pakistan,Country,Eastern Mediterranean,0.947,2.69,64.8
+2016,STP,Sao Tome and Principe,Country,Africa,2.018,2.69,25.0
+2016,PHL,Philippines,Country,Western Pacific,1.011,2.7,62.57
+2016,NGA,Nigeria,Country,Africa,2.167,2.73,20.63
+2016,TGO,Togo,Country,Africa,2.137,2.74,22.01
+2016,TCD,Chad,Country,Africa,1.775,2.77,35.91
+2016,COL,Colombia,Country,Americas,1.399,2.77,49.51
+2016,CMR,Cameroon,Country,Africa,1.715,2.81,38.96
+2016,RWA,Rwanda,Country,Africa,1.244,2.82,55.87
+2016,MHL,Marshall Islands,Country,Western Pacific,1.341,2.92,54.06
+2016,GNQ,Equatorial Guinea,Country,Africa,2.049,2.94,30.3
+2016,NZL,New Zealand,Country,Western Pacific,5.047,20.14,74.94
+2016,ERI,Eritrea,Country,Africa,10.16,22.76,55.36
+2016,LKA,Sri Lanka,Country,South-East Asia,10.405,27.49,62.15
+2016,BEN,Benin,Country,Africa,2.411,3.01,19.9
+2016,MNG,Mongolia,Country,Western Pacific,1.422,3.02,52.9
+2016,COD,Democratic Republic of the Congo,Country,Africa,2.025,3.06,33.81
+2016,DMA,Dominica,Country,Americas,2.316,3.06,24.3
+2016,MMR,Myanmar,Country,South-East Asia,2.038,3.15,35.29
+2016,UGA,Uganda,Country,Africa,1.833,3.18,42.37
+2016,YEM,Yemen,Country,Eastern Mediterranean,1.529,3.22,52.51
+2016,FSM,Micronesia (Federated States of),Country,Western Pacific,1.292,3.23,60.0
+2016,GNB,Guinea-Bissau,Country,Africa,2.609,3.24,19.46
+2016,COG,Congo,Country,Africa,2.043,3.25,37.14
+2016,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.66,3.26,18.42
+2016,TJK,Tajikistan,Country,Europe,2.377,3.3,27.97
+2016,LBY,Libya,Country,Eastern Mediterranean,2.87,3.39,15.35
+2016,KAZ,Kazakhstan,Country,Europe,1.869,3.41,45.2
+2016,TUV,Tuvalu,Country,Western Pacific,1.684,3.41,50.63
+2016,UZB,Uzbekistan,Country,Europe,2.303,3.59,35.86
+2016,MRT,Mauritania,Country,Africa,3.274,3.62,9.55
+2016,GMB,Gambia,Country,Africa,1.667,3.63,54.09
+2016,BDI,Burundi,Country,Africa,2.095,3.66,42.75
+2016,CIV,Cote d'Ivoire,Country,Africa,2.358,3.66,35.57
+2016,VNM,Viet Nam,Country,Western Pacific,2.393,3.72,35.67
+2016,BRA,Brazil,Country,Americas,1.205,3.76,67.95
+2016,UKR,Ukraine,Country,Europe,0.793,3.84,79.35
+2016,GHA,Ghana,Country,Africa,3.013,4.19,28.1
+2016,BFA,Burkina Faso,Country,Africa,2.738,4.2,34.81
+2016,CHN,China,Country,Western Pacific,1.883,4.24,55.58
+2016,GEO,Georgia,Country,Europe,1.313,4.27,69.25
+2016,KEN,Kenya,Country,Africa,2.077,4.35,52.25
+2016,GUY,Guyana,Country,Americas,3.314,4.4,24.68
+2016,KGZ,Kyrgyzstan,Country,Europe,2.697,4.42,38.99
+2016,TUN,Tunisia,Country,Eastern Mediterranean,1.123,4.42,74.6
+2016,HTI,Haiti,Country,Americas,3.085,4.48,31.13
+2016,TZA,United Republic of Tanzania,Country,Africa,2.979,4.51,33.94
+2016,MKD,North Macedonia,Country,Europe,1.333,4.61,71.09
+2016,MDA,Republic of Moldova,Country,Europe,1.988,4.81,58.67
+2016,ATG,Antigua and Barbuda,Country,Americas,4.074,4.82,15.47
+2016,CPV,Cabo Verde,Country,Africa,3.927,4.88,19.53
+2016,GAB,Gabon,Country,Africa,3.663,4.91,25.39
+2016,VCT,Saint Vincent and the Grenadines,Country,Americas,3.926,4.95,20.69
+2016,EGY,Egypt,Country,Eastern Mediterranean,1.314,4.96,73.5
+2016,BLZ,Belize,Country,Americas,3.126,4.97,37.11
+2016,ARM,Armenia,Country,Europe,3.302,5.08,35.0
+2016,MLI,Mali,Country,Africa,3.372,5.09,33.76
+2016,COM,Comoros,Country,Africa,3.274,5.22,37.28
+2016,KNA,Saint Kitts and Nevis,Country,Americas,4.208,5.26,20.0
+2016,TLS,Timor-Leste,Country,South-East Asia,3.787,5.26,28.01
+2016,SLB,Solomon Islands,Country,Western Pacific,3.797,5.34,28.89
+2016,JPN,Japan,Country,Western Pacific,1.984,5.37,63.06
+2016,MDG,Madagascar,Country,Africa,1.065,5.44,80.43
+2016,JOR,Jordan,Country,Eastern Mediterranean,0.934,5.45,82.87
+2016,BOL,Bolivia (Plurinational State of),Country,Americas,3.384,5.58,39.36
+2016,ZMB,Zambia,Country,Africa,3.617,5.77,37.32
+2016,SLV,El Salvador,Country,Americas,2.744,5.78,52.52
+2016,LCA,Saint Lucia,Country,Americas,2.489,5.78,56.93
+2016,HND,Honduras,Country,Americas,3.849,5.86,34.31
+2016,RUS,Russian Federation,Country,Europe,2.883,5.89,51.06
+2016,KWT,Kuwait,Country,Eastern Mediterranean,4.447,5.91,24.75
+2016,QAT,Qatar,Country,Eastern Mediterranean,4.776,5.97,20.0
+2016,IDN,Indonesia,Country,Western Pacific,2.58,6.1,57.71
+2016,ARG,Argentina,Country,Americas,1.242,6.29,80.25
+2016,SDN,Sudan,Country,Eastern Mediterranean,1.752,6.36,72.45
+2016,GRD,Grenada,Country,Americas,3.409,6.4,46.73
+2016,URY,Uruguay,Country,Americas,2.211,6.41,65.51
+2016,MNE,Montenegro,Country,Europe,1.625,6.46,74.85
+2016,ARE,United Arab Emirates,Country,Eastern Mediterranean,5.31,6.49,18.18
+2016,CRI,Costa Rica,Country,Americas,2.881,6.58,56.21
+2016,MAR,Morocco,Country,Eastern Mediterranean,1.921,6.68,71.24
+2016,AND,Andorra,Country,Europe,1.707,6.7,74.52
+2016,KOR,Republic of Korea,Country,Western Pacific,1.768,6.76,73.85
+2016,OMN,Oman,Country,Eastern Mediterranean,5.416,6.77,20.0
+2016,LBN,Lebanon,Country,Eastern Mediterranean,4.063,6.93,41.37
+2016,ALB,Albania,Country,Europe,2.389,7.09,66.31
+2016,SRB,Serbia,Country,Europe,1.589,7.13,77.71
+2016,SSD,South Sudan,Country,Africa,1.733,7.16,75.79
+2016,MEX,Mexico,Country,Americas,2.381,7.28,67.29
+2016,CHL,Chile,Country,Americas,0.801,7.37,89.13
+2016,KIR,Kiribati,Country,Western Pacific,4.307,7.43,42.03
+2016,WSM,Samoa,Country,Western Pacific,3.602,7.44,51.58
+2016,GTM,Guatemala,Country,Americas,3.811,7.47,48.98
+2016,ZAF,South Africa,Country,Africa,3.784,7.5,49.54
+2016,MDV,Maldives,Country,South-East Asia,3.529,7.54,53.19
+2016,DZA,Algeria,Country,Africa,4.742,7.55,37.19
+2016,VUT,Vanuatu,Country,Western Pacific,3.243,7.72,57.99
+2016,SVK,Slovakia,Country,Europe,1.709,7.79,78.06
+2016,PLW,Palau,Country,Western Pacific,2.038,7.86,74.07
+2016,SWZ,Eswatini,Country,Africa,3.974,7.92,49.82
+2016,SVN,Slovenia,Country,Europe,1.713,7.98,78.54
+2016,LUX,Luxembourg,Country,Europe,2.354,8.04,70.72
+2016,PER,Peru,Country,Americas,4.057,8.04,49.54
+2016,SMR,San Marino,Country,Europe,2.079,8.05,74.17
+2016,LVA,Latvia,Country,Europe,1.648,8.17,79.83
+2016,NPL,Nepal,Country,South-East Asia,6.047,8.21,26.35
+2016,DNK,Denmark,Country,Europe,2.098,8.31,74.75
+2016,AUT,Austria,Country,Europe,2.036,8.37,75.67
+2016,AZE,Azerbaijan,Country,Europe,6.854,8.37,18.11
+2016,USA,United States of America,Country,Americas,4.793,8.41,43.01
+2016,TTO,Trinidad and Tobago,Country,Americas,6.392,8.61,25.76
+2016,BIH,Bosnia and Herzegovina,Country,Europe,1.361,8.64,84.25
+2016,CZE,Czechia,Country,Europe,1.99,8.83,77.46
+2016,CYP,Cyprus,Country,Europe,1.987,8.85,77.55
+2016,BWA,Botswana,Country,Africa,4.475,8.9,49.72
+2016,GRC,Greece,Country,Europe,1.736,8.95,80.6
+2016,NAM,Namibia,Country,Africa,5.101,8.97,43.13
+2016,BRB,Barbados,Country,Americas,5.434,9.05,39.96
+2016,THA,Thailand,Country,South-East Asia,2.408,9.08,73.48
+2016,BGR,Bulgaria,Country,Europe,1.363,9.15,85.1
+2016,CHE,Switzerland,Country,Europe,3.585,9.16,60.86
+2016,FIN,Finland,Country,Europe,1.384,9.17,84.91
+2016,HRV,Croatia,Country,Europe,2.119,9.28,77.17
+2016,TON,Tonga,Country,Western Pacific,3.058,9.31,67.15
+2016,LTU,Lithuania,Country,Europe,2.334,9.36,75.06
+2016,SWE,Sweden,Country,Europe,2.948,9.36,68.5
+2016,EST,Estonia,Country,Europe,2.157,9.46,77.2
+2016,DOM,Dominican Republic,Country,Americas,4.095,9.57,57.21
+2016,SAU,Saudi Arabia,Country,Eastern Mediterranean,8.091,9.71,16.67
+2016,ITA,Italy,Country,Europe,2.346,9.75,75.94
+2016,GLB,Global Average,Benchmark,Global,3.106,7.2,50.9
+2018,COK,Cook Islands,Country,Western Pacific,,,70.28
+2018,CUB,Cuba,Country,Americas,,,70.25
+2018,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2018,NIU,Niue,Country,Western Pacific,,,87.72
+2018,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,,,38.5
+2018,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,73.04
+2018,ZWE,Zimbabwe,Country,Africa,,,35.9
+2018,PRY,Paraguay,Country,Americas,0.809,0.98,17.4
+2018,IRQ,Iraq,Country,Eastern Mediterranean,1.044,1.13,7.62
+2018,KHM,Cambodia,Country,Western Pacific,1.273,1.7,25.09
+2018,PAK,Pakistan,Country,Eastern Mediterranean,0.755,1.73,56.36
+2018,SOM,Somalia,Country,Eastern Mediterranean,1.747,1.88,7.09
+2018,COD,Democratic Republic of the Congo,Country,Africa,1.195,1.95,38.73
+2018,LBN,Lebanon,Country,Eastern Mediterranean,1.809,1.99,9.09
+2018,ITA,Italy,Country,Europe,2.418,10.09,76.04
+2018,BWA,Botswana,Country,Africa,5.098,10.17,49.87
+2018,GRC,Greece,Country,Europe,1.91,10.17,81.22
+2018,BIH,Bosnia and Herzegovina,Country,Europe,1.651,10.19,83.8
+2018,TUR,Türkiye,Country,Europe,1.924,10.33,81.37
+2018,LTU,Lithuania,Country,Europe,2.743,10.48,73.83
+2018,MDV,Maldives,Country,South-East Asia,6.863,10.58,35.13
+2018,MUS,Mauritius,Country,Africa,1.741,10.58,83.54
+2018,BEL,Belgium,Country,Europe,2.477,10.76,76.98
+2018,DEU,Germany,Country,Europe,3.444,10.88,68.35
+2018,PRT,Portugal,Country,Europe,3.1,10.94,71.66
+2018,POL,Poland,Country,Europe,2.572,11.08,76.79
+2018,HUN,Hungary,Country,Europe,3.099,11.18,72.28
+2018,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.958,11.18,73.54
+2018,SUR,Suriname,Country,Americas,5.872,11.21,47.62
+2018,NLD,Netherlands (Kingdom of the),Country,Europe,3.174,11.26,71.81
+2018,PAN,Panama,Country,Americas,4.909,11.29,56.52
+2018,PER,Peru,Country,Americas,5.814,11.4,49.0
+2018,DOM,Dominican Republic,Country,Americas,5.632,11.52,51.11
+2018,IND,India,Country,South-East Asia,5.327,11.59,54.04
+2018,MLT,Malta,Country,Europe,2.628,11.71,77.56
+2018,ISR,Israel,Country,Europe,2.862,11.88,75.91
+2018,ISL,Iceland,Country,Europe,5.359,12.04,55.49
+2018,CAN,Canada,Country,Americas,4.356,12.22,64.35
+2018,ECU,Ecuador,Country,Americas,3.919,13.05,69.97
+2018,ROU,Romania,Country,Europe,4.124,13.12,68.57
+2018,BHR,Bahrain,Country,Eastern Mediterranean,3.945,13.15,70.0
+2018,FRA,France,Country,Europe,2.32,13.22,82.45
+2018,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,2.211,13.36,83.45
+2018,MYS,Malaysia,Country,Western Pacific,5.556,13.42,58.6
+2018,TON,Tonga,Country,Western Pacific,5.237,13.94,62.43
+2018,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.184,15.07,85.51
+2018,NOR,Norway,Country,Europe,5.534,15.36,63.97
+2018,AUS,Australia,Country,Western Pacific,3.963,17.63,77.52
+2018,SYC,Seychelles,Country,Africa,5.475,18.28,70.05
+2018,FJI,Fiji,Country,Western Pacific,10.705,18.48,42.07
+2018,SAU,Saudi Arabia,Country,Eastern Mediterranean,5.913,18.53,68.09
+2018,IRL,Ireland,Country,Europe,4.156,19.24,78.4
+2018,ETH,Ethiopia,Country,Africa,1.469,2.01,26.94
+2018,BLR,Belarus,Country,Europe,1.041,2.12,50.9
+2018,NGA,Nigeria,Country,Africa,1.56,2.22,29.73
+2018,CAF,Central African Republic,Country,Africa,1.439,2.46,41.5
+2018,SLE,Sierra Leone,Country,Africa,2.021,2.46,17.85
+2018,NER,Niger,Country,Africa,1.705,2.48,31.25
+2018,AFG,Afghanistan,Country,Eastern Mediterranean,1.999,2.52,20.68
+2018,GNQ,Equatorial Guinea,Country,Africa,1.912,2.56,25.32
+2018,COM,Comoros,Country,Africa,0.757,2.57,70.54
+2018,RWA,Rwanda,Country,Africa,1.147,2.6,55.87
+2018,TCD,Chad,Country,Africa,1.701,2.64,35.55
+2018,LBR,Liberia,Country,Africa,1.728,2.65,34.78
+2018,MOZ,Mozambique,Country,Africa,1.894,2.65,28.53
+2018,AZE,Azerbaijan,Country,Europe,1.839,2.84,35.25
+2018,BRA,Brazil,Country,Americas,0.484,2.84,82.97
+2018,GNB,Guinea-Bissau,Country,Africa,2.303,2.86,19.46
+2018,BEN,Benin,Country,Africa,2.357,2.9,18.73
+2018,MHL,Marshall Islands,Country,Western Pacific,1.337,2.91,54.06
+2018,MMR,Myanmar,Country,South-East Asia,1.964,2.91,32.5
+2018,SGP,Singapore,Country,Western Pacific,6.673,20.29,67.11
+2018,NZL,New Zealand,Country,Western Pacific,3.613,20.31,82.21
+2018,TKM,Turkmenistan,Country,Europe,14.159,20.93,32.35
+2018,JAM,Jamaica,Country,Americas,12.026,21.33,43.62
+2018,ERI,Eritrea,Country,Africa,11.24,25.18,55.36
+2018,LKA,Sri Lanka,Country,South-East Asia,9.303,27.5,66.17
+2018,COG,Congo,Country,Africa,1.905,3.03,37.14
+2018,MNG,Mongolia,Country,Western Pacific,1.594,3.03,47.39
+2018,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.484,3.06,18.81
+2018,STP,Sao Tome and Principe,Country,Africa,1.918,3.22,40.43
+2018,TGO,Togo,Country,Africa,2.56,3.28,21.96
+2018,BDI,Burundi,Country,Africa,1.889,3.3,42.75
+2018,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,2.652,3.32,20.13
+2018,CMR,Cameroon,Country,Africa,2.179,3.36,35.15
+2018,BGD,Bangladesh,Country,South-East Asia,0.986,3.4,71.0
+2018,GHA,Ghana,Country,Africa,2.356,3.43,31.3
+2018,VNM,Viet Nam,Country,Western Pacific,2.173,3.43,36.65
+2018,KAZ,Kazakhstan,Country,Europe,1.648,3.46,52.38
+2018,DMA,Dominica,Country,Americas,2.66,3.48,23.57
+2018,UGA,Uganda,Country,Africa,2.099,3.49,39.87
+2018,PHL,Philippines,Country,Western Pacific,1.035,3.61,71.32
+2018,CIV,Cote d'Ivoire,Country,Africa,2.436,3.65,33.25
+2018,SEN,Senegal,Country,Africa,2.26,3.66,38.24
+2018,YEM,Yemen,Country,Eastern Mediterranean,1.826,3.7,50.64
+2018,COL,Colombia,Country,Americas,0.797,3.76,78.81
+2018,FSM,Micronesia (Federated States of),Country,Western Pacific,1.97,3.83,48.57
+2018,KEN,Kenya,Country,Africa,1.838,3.85,52.25
+2018,LBY,Libya,Country,Eastern Mediterranean,3.398,3.86,11.97
+2018,BLZ,Belize,Country,Americas,2.227,3.95,43.61
+2018,TJK,Tajikistan,Country,Europe,2.304,4.02,42.69
+2018,UZB,Uzbekistan,Country,Europe,2.299,4.16,44.74
+2018,CHN,China,Country,Western Pacific,1.899,4.29,55.73
+2018,TUN,Tunisia,Country,Eastern Mediterranean,1.174,4.39,73.25
+2018,MRT,Mauritania,Country,Africa,3.985,4.41,9.63
+2018,CPV,Cabo Verde,Country,Africa,3.573,4.44,19.53
+2018,KGZ,Kyrgyzstan,Country,Europe,2.293,4.46,48.59
+2018,BFA,Burkina Faso,Country,Africa,2.63,4.5,41.55
+2018,GAB,Gabon,Country,Africa,3.602,4.55,20.84
+2018,MDG,Madagascar,Country,Africa,0.906,4.63,80.43
+2018,GUY,Guyana,Country,Americas,3.406,4.7,27.54
+2018,SLB,Solomon Islands,Country,Western Pacific,3.162,4.8,34.13
+2018,MLI,Mali,Country,Africa,3.213,4.85,33.76
+2018,ZMB,Zambia,Country,Africa,2.892,4.92,41.22
+2018,ATG,Antigua and Barbuda,Country,Americas,4.234,4.97,14.81
+2018,KNA,Saint Kitts and Nevis,Country,Americas,3.984,4.98,20.0
+2018,AGO,Angola,Country,Africa,3.848,5.04,23.66
+2018,GMB,Gambia,Country,Africa,2.732,5.09,46.32
+2018,TZA,United Republic of Tanzania,Country,Africa,3.498,5.15,32.07
+2018,MKD,North Macedonia,Country,Europe,0.975,5.2,81.25
+2018,TUV,Tuvalu,Country,Western Pacific,4.603,5.27,12.66
+2018,JPN,Japan,Country,Western Pacific,1.95,5.28,63.06
+2018,SDN,Sudan,Country,Eastern Mediterranean,1.443,5.29,72.72
+2018,BOL,Bolivia (Plurinational State of),Country,Americas,3.363,5.32,36.78
+2018,QAT,Qatar,Country,Eastern Mediterranean,3.192,5.32,40.0
+2018,ARM,Armenia,Country,Europe,3.345,5.4,38.06
+2018,UKR,Ukraine,Country,Europe,1.389,5.48,74.66
+2018,ARG,Argentina,Country,Americas,1.288,5.54,76.75
+2018,EGY,Egypt,Country,Eastern Mediterranean,1.273,5.58,77.19
+2018,KWT,Kuwait,Country,Eastern Mediterranean,4.45,5.65,21.24
+2018,GEO,Georgia,Country,Europe,1.642,5.7,71.2
+2018,MDA,Republic of Moldova,Country,Europe,2.502,5.95,57.95
+2018,HND,Honduras,Country,Americas,3.471,5.97,41.86
+2018,MAR,Morocco,Country,Eastern Mediterranean,1.749,6.08,71.24
+2018,THA,Thailand,Country,South-East Asia,1.32,6.17,78.6
+2018,LCA,Saint Lucia,Country,Americas,3.013,6.2,51.41
+2018,RUS,Russian Federation,Country,Europe,2.702,6.32,57.24
+2018,GRD,Grenada,Country,Americas,3.655,6.53,44.02
+2018,KOR,Republic of Korea,Country,Western Pacific,1.721,6.58,73.85
+2018,MEX,Mexico,Country,Americas,2.221,6.73,67.0
+2018,ZAF,South Africa,Country,Africa,3.091,6.81,54.61
+2018,AND,Andorra,Country,Europe,1.417,6.86,79.34
+2018,CRI,Costa Rica,Country,Americas,3.151,7.02,55.11
+2018,KIR,Kiribati,Country,Western Pacific,4.117,7.06,41.69
+2018,ALB,Albania,Country,Europe,2.452,7.09,65.42
+2018,URY,Uruguay,Country,Americas,2.446,7.21,66.08
+2018,VUT,Vanuatu,Country,Western Pacific,3.04,7.29,58.3
+2018,TLS,Timor-Leste,Country,South-East Asia,5.717,7.31,21.79
+2018,OMN,Oman,Country,Eastern Mediterranean,5.543,7.39,25.0
+2018,GTM,Guatemala,Country,Americas,3.872,7.59,48.98
+2018,IDN,Indonesia,Country,Western Pacific,3.661,7.62,51.96
+2018,SRB,Serbia,Country,Europe,1.727,7.62,77.34
+2018,JOR,Jordan,Country,Eastern Mediterranean,1.496,7.69,80.54
+2018,SWZ,Eswatini,Country,Africa,3.625,7.79,53.46
+2018,LUX,Luxembourg,Country,Europe,2.472,7.8,68.31
+2018,SVK,Slovakia,Country,Europe,1.794,7.84,77.12
+2018,SLV,El Salvador,Country,Americas,4.165,7.94,47.54
+2018,PLW,Palau,Country,Western Pacific,2.169,8.03,72.99
+2018,VCT,Saint Vincent and the Grenadines,Country,Americas,6.707,8.07,16.89
+2018,EST,Estonia,Country,Europe,1.105,8.11,86.38
+2018,SVN,Slovenia,Country,Europe,1.694,8.14,79.19
+2018,DNK,Denmark,Country,Europe,2.125,8.22,74.15
+2018,BRB,Barbados,Country,Americas,4.48,8.47,47.11
+2018,CHL,Chile,Country,Americas,1.501,8.51,82.36
+2018,WSM,Samoa,Country,Western Pacific,4.297,8.51,49.51
+2018,USA,United States of America,Country,Americas,4.888,8.57,42.96
+2018,NPL,Nepal,Country,South-East Asia,6.069,8.67,30.0
+2018,LSO,Lesotho,Country,Africa,4.272,8.7,50.9
+2018,NAM,Namibia,Country,Africa,4.899,8.76,44.08
+2018,BGR,Bulgaria,Country,Europe,1.139,8.82,87.09
+2018,NRU,Naoero,Country,Western Pacific,4.59,8.88,48.31
+2018,LVA,Latvia,Country,Europe,1.785,8.92,79.99
+2018,MNE,Montenegro,Country,Europe,1.672,8.97,81.36
+2018,AUT,Austria,Country,Europe,2.222,8.98,75.26
+2018,TTO,Trinidad and Tobago,Country,Americas,6.708,9.03,25.71
+2018,CHE,Switzerland,Country,Europe,3.619,9.11,60.27
+2018,SWE,Sweden,Country,Europe,2.896,9.16,68.38
+2018,CYP,Cyprus,Country,Europe,2.352,9.19,74.41
+2018,PNG,Papua New Guinea,Country,Western Pacific,4.284,9.35,54.18
+2018,HRV,Croatia,Country,Europe,1.997,9.42,78.8
+2018,CZE,Czechia,Country,Europe,2.333,9.49,75.42
+2018,DZA,Algeria,Country,Africa,6.341,9.64,34.22
+2018,ESP,Spain,Country,Europe,2.15,9.88,78.24
+2018,FIN,Finland,Country,Europe,1.153,9.95,88.41
+2018,GLB,Global Average,Benchmark,Global,3.088,7.527,52.78
+2020,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2020,MCO,Monaco,Country,Europe,,,0.0
+2020,NIU,Niue,Country,Western Pacific,,,57.76
+2020,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,,,38.5
+2020,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,73.37
+2020,ZWE,Zimbabwe,Country,Africa,,,29.29
+2020,PRY,Paraguay,Country,Americas,0.841,1.03,18.31
+2020,IRQ,Iraq,Country,Eastern Mediterranean,1.155,1.25,7.62
+2020,COD,Democratic Republic of the Congo,Country,Africa,0.704,1.47,52.11
+2020,SOM,Somalia,Country,Eastern Mediterranean,1.561,1.68,7.09
+2020,KHM,Cambodia,Country,Western Pacific,1.302,1.77,26.45
+2020,ESP,Spain,Country,Europe,2.176,10.0,78.24
+2020,GRC,Greece,Country,Europe,1.976,10.52,81.22
+2020,TUR,Türkiye,Country,Europe,1.606,10.62,84.88
+2020,NPL,Nepal,Country,South-East Asia,7.818,10.71,27.0
+2020,CZE,Czechia,Country,Europe,2.459,10.77,77.17
+2020,MUS,Mauritius,Country,Africa,2.056,10.93,81.19
+2020,ISR,Israel,Country,Europe,2.47,11.0,77.55
+2020,BIH,Bosnia and Herzegovina,Country,Europe,1.806,11.31,84.03
+2020,ITA,Italy,Country,Europe,2.648,11.31,76.59
+2020,IND,India,Country,South-East Asia,4.804,11.33,57.6
+2020,BEL,Belgium,Country,Europe,2.653,11.51,76.95
+2020,DNK,Denmark,Country,Europe,2.557,11.61,77.98
+2020,LTU,Lithuania,Country,Europe,3.016,11.61,74.02
+2020,QAT,Qatar,Country,Eastern Mediterranean,3.704,11.64,68.18
+2020,POL,Poland,Country,Europe,2.544,11.78,78.4
+2020,MLT,Malta,Country,Europe,2.679,11.94,77.56
+2020,DEU,Germany,Country,Europe,4.375,12.0,63.54
+2020,FIN,Finland,Country,Europe,1.257,12.09,89.6
+2020,ARE,United Arab Emirates,Country,Eastern Mediterranean,3.339,12.18,72.59
+2020,ISL,Iceland,Country,Europe,5.522,12.26,54.96
+2020,NRU,Naoero,Country,Western Pacific,7.142,12.36,42.22
+2020,BHS,Bahamas,Country,Americas,7.156,12.6,43.21
+2020,BWA,Botswana,Country,Africa,6.055,12.66,52.17
+2020,HUN,Hungary,Country,Europe,3.462,12.69,72.72
+2020,CAN,Canada,Country,Americas,4.962,12.96,61.71
+2020,NLD,Netherlands (Kingdom of the),Country,Europe,2.959,12.96,77.17
+2020,MYS,Malaysia,Country,Western Pacific,6.721,13.85,51.47
+2020,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,2.283,14.26,83.99
+2020,MDV,Maldives,Country,South-East Asia,10.192,14.31,28.78
+2020,OMN,Oman,Country,Eastern Mediterranean,5.269,14.49,63.64
+2020,ECU,Ecuador,Country,Americas,4.83,14.57,66.85
+2020,SUR,Suriname,Country,Americas,10.741,14.62,26.53
+2020,TON,Tonga,Country,Western Pacific,4.972,15.22,67.33
+2020,ROU,Romania,Country,Europe,4.671,15.38,69.63
+2020,BHR,Bahrain,Country,Eastern Mediterranean,4.738,16.3,70.93
+2020,NOR,Norway,Country,Europe,6.267,16.3,61.55
+2020,DOM,Dominican Republic,Country,Americas,9.547,17.13,44.27
+2020,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.725,17.26,84.21
+2020,FRA,France,Country,Europe,2.933,17.49,83.23
+2020,SAU,Saudi Arabia,Country,Eastern Mediterranean,4.62,17.66,73.84
+2020,JAM,Jamaica,Country,Americas,10.979,19.12,42.58
+2020,SYC,Seychelles,Country,Africa,6.031,19.78,69.51
+2020,GIN,Guinea,Country,Africa,1.806,2.0,9.71
+2020,MWI,Malawi,Country,Africa,0.939,2.15,56.32
+2020,AFG,Afghanistan,Country,Eastern Mediterranean,1.88,2.37,20.68
+2020,SLE,Sierra Leone,Country,Africa,1.843,2.38,22.56
+2020,COM,Comoros,Country,Africa,0.628,2.4,73.84
+2020,LBN,Lebanon,Country,Eastern Mediterranean,2.162,2.4,9.91
+2020,BLR,Belarus,Country,Europe,1.075,2.42,55.57
+2020,PAK,Pakistan,Country,Eastern Mediterranean,0.949,2.42,60.78
+2020,GNQ,Equatorial Guinea,Country,Africa,1.895,2.5,24.21
+2020,TCD,Chad,Country,Africa,1.273,2.65,51.95
+2020,NER,Niger,Country,Africa,1.854,2.72,31.82
+2020,SDN,Sudan,Country,Eastern Mediterranean,0.746,2.8,73.36
+2020,BRA,Brazil,Country,Americas,0.518,2.81,81.55
+2020,MHL,Marshall Islands,Country,Western Pacific,1.305,2.84,54.06
+2020,BEN,Benin,Country,Africa,2.183,2.85,23.4
+2020,LAO,Lao People's Democratic Republic,Country,Western Pacific,2.535,2.87,11.66
+2020,YEM,Yemen,Country,Eastern Mediterranean,1.43,2.9,50.7
+2020,GHA,Ghana,Country,Africa,2.034,2.98,31.75
+2020,SGP,Singapore,Country,Western Pacific,6.729,20.46,67.11
+2020,IRL,Ireland,Country,Europe,4.461,21.11,78.87
+2020,FJI,Fiji,Country,Western Pacific,14.227,22.55,36.91
+2020,BTN,Bhutan,Country,South-East Asia,21.139,23.01,8.13
+2020,TKM,Turkmenistan,Country,Europe,13.742,23.78,42.21
+2020,AUS,Australia,Country,Western Pacific,6.473,24.81,73.91
+2020,NZL,New Zealand,Country,Western Pacific,4.583,25.46,82.0
+2020,LKA,Sri Lanka,Country,South-East Asia,6.563,28.56,77.02
+2020,MOZ,Mozambique,Country,Africa,2.287,3.2,28.53
+2020,MNG,Mongolia,Country,Western Pacific,1.85,3.39,45.44
+2020,NGA,Nigeria,Country,Africa,2.269,3.6,36.98
+2020,VNM,Viet Nam,Country,Western Pacific,2.341,3.69,36.55
+2020,CIV,Cote d'Ivoire,Country,Africa,2.455,3.75,34.54
+2020,RWA,Rwanda,Country,Africa,1.348,3.77,64.25
+2020,COG,Congo,Country,Africa,2.764,3.78,26.87
+2020,SEN,Senegal,Country,Africa,2.341,3.79,38.24
+2020,UGA,Uganda,Country,Africa,2.558,3.91,34.58
+2020,STP,Sao Tome and Principe,Country,Africa,2.639,3.98,33.69
+2020,BGD,Bangladesh,Country,South-East Asia,1.606,4.01,59.94
+2020,BDI,Burundi,Country,Africa,2.554,4.07,37.25
+2020,TGO,Togo,Country,Africa,2.386,4.07,41.37
+2020,DMA,Dominica,Country,Americas,3.153,4.08,22.72
+2020,ETH,Ethiopia,Country,Africa,1.898,4.11,53.82
+2020,CMR,Cameroon,Country,Africa,2.609,4.14,36.97
+2020,MRT,Mauritania,Country,Africa,3.924,4.17,5.91
+2020,MDG,Madagascar,Country,Africa,2.119,4.23,49.91
+2020,KAZ,Kazakhstan,Country,Europe,1.891,4.27,55.71
+2020,MMR,Myanmar,Country,South-East Asia,2.139,4.27,49.9
+2020,UZB,Uzbekistan,Country,Europe,1.916,4.38,56.25
+2020,ZMB,Zambia,Country,Africa,2.615,4.38,40.29
+2020,FSM,Micronesia (Federated States of),Country,Western Pacific,2.347,4.4,46.67
+2020,BFA,Burkina Faso,Country,Africa,2.576,4.56,43.5
+2020,LBR,Liberia,Country,Africa,2.811,4.59,38.75
+2020,AZE,Azerbaijan,Country,Europe,2.314,4.6,49.7
+2020,GAB,Gabon,Country,Africa,3.617,4.61,21.55
+2020,TJK,Tajikistan,Country,Europe,2.69,4.63,41.91
+2020,CHN,China,Country,Western Pacific,2.099,4.64,54.76
+2020,SSD,South Sudan,Country,Africa,3.545,4.65,23.76
+2020,MLI,Mali,Country,Africa,3.186,4.81,33.76
+2020,TUV,Tuvalu,Country,Western Pacific,2.992,4.88,38.68
+2020,LBY,Libya,Country,Eastern Mediterranean,4.16,5.03,17.29
+2020,TUN,Tunisia,Country,Eastern Mediterranean,1.477,5.07,70.86
+2020,COL,Colombia,Country,Americas,1.615,5.31,69.59
+2020,GUY,Guyana,Country,Americas,3.971,5.48,27.54
+2020,KGZ,Kyrgyzstan,Country,Europe,2.582,5.48,52.88
+2020,KWT,Kuwait,Country,Eastern Mediterranean,4.492,5.54,18.91
+2020,EGY,Egypt,Country,Eastern Mediterranean,1.198,5.58,78.53
+2020,BOL,Bolivia (Plurinational State of),Country,Americas,3.623,5.63,35.65
+2020,GMB,Gambia,Country,Africa,2.967,5.79,48.75
+2020,ARM,Armenia,Country,Europe,3.337,5.98,44.19
+2020,CPV,Cabo Verde,Country,Africa,4.348,6.06,28.25
+2020,BLZ,Belize,Country,Americas,4.0,6.13,34.75
+2020,JPN,Japan,Country,Western Pacific,2.393,6.14,61.03
+2020,TZA,United Republic of Tanzania,Country,Africa,4.356,6.22,29.97
+2020,PHL,Philippines,Country,Western Pacific,2.759,6.23,55.71
+2020,MAR,Morocco,Country,Eastern Mediterranean,1.512,6.32,76.08
+2020,HND,Honduras,Country,Americas,3.631,6.33,42.64
+2020,ARG,Argentina,Country,Americas,1.487,6.36,76.62
+2020,MKD,North Macedonia,Country,Europe,1.255,6.36,80.26
+2020,THA,Thailand,Country,South-East Asia,1.363,6.37,78.6
+2020,KOR,Republic of Korea,Country,Western Pacific,1.72,6.58,73.86
+2020,VCT,Saint Vincent and the Grenadines,Country,Americas,5.075,6.6,23.11
+2020,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,5.591,6.62,15.54
+2020,VUT,Vanuatu,Country,Western Pacific,2.861,6.86,58.3
+2020,KIR,Kiribati,Country,Western Pacific,4.089,6.98,41.42
+2020,AND,Andorra,Country,Europe,1.518,7.03,78.41
+2020,KEN,Kenya,Country,Africa,4.315,7.08,39.05
+2020,LCA,Saint Lucia,Country,Americas,3.456,7.12,51.46
+2020,MDA,Republic of Moldova,Country,Europe,2.685,7.14,62.39
+2020,ZAF,South Africa,Country,Africa,3.465,7.33,52.73
+2020,CRI,Costa Rica,Country,Americas,3.333,7.39,54.9
+2020,AGO,Angola,Country,Africa,5.771,7.42,22.22
+2020,ALB,Albania,Country,Europe,2.51,7.53,66.67
+2020,GEO,Georgia,Country,Europe,1.426,7.6,81.24
+2020,UKR,Ukraine,Country,Europe,1.489,7.71,80.69
+2020,IDN,Indonesia,Country,Western Pacific,2.847,7.75,63.26
+2020,URY,Uruguay,Country,Americas,2.648,7.77,65.92
+2020,LUX,Luxembourg,Country,Europe,2.478,7.81,68.27
+2020,GTM,Guatemala,Country,Americas,4.015,7.87,48.98
+2020,MEX,Mexico,Country,Americas,2.643,8.15,67.57
+2020,RUS,Russian Federation,Country,Europe,3.635,8.27,56.05
+2020,PLW,Palau,Country,Western Pacific,2.152,8.3,74.07
+2020,SWZ,Eswatini,Country,Africa,3.956,8.51,53.51
+2020,SRB,Serbia,Country,Europe,2.001,8.53,76.54
+2020,SVN,Slovenia,Country,Europe,1.847,8.66,78.67
+2020,PER,Peru,Country,Americas,2.8,8.67,67.71
+2020,SVK,Slovakia,Country,Europe,2.055,8.67,76.3
+2020,WSM,Samoa,Country,Western Pacific,4.458,8.77,49.17
+2020,NAM,Namibia,Country,Africa,4.632,8.88,47.84
+2020,USA,United States of America,Country,Americas,5.331,8.88,39.97
+2020,BGR,Bulgaria,Country,Europe,1.323,8.98,85.27
+2020,CHL,Chile,Country,Americas,1.796,9.0,80.04
+2020,SLV,El Salvador,Country,Americas,4.821,9.02,46.55
+2020,MNE,Montenegro,Country,Europe,2.15,9.06,76.27
+2020,TLS,Timor-Leste,Country,South-East Asia,7.125,9.11,21.79
+2020,JOR,Jordan,Country,Eastern Mediterranean,2.011,9.15,78.02
+2020,ATG,Antigua and Barbuda,Country,Americas,7.881,9.21,14.43
+2020,HRV,Croatia,Country,Europe,1.517,9.25,83.6
+2020,SMR,San Marino,Country,Europe,2.397,9.28,74.17
+2020,EST,Estonia,Country,Europe,1.163,9.41,87.64
+2020,CYP,Cyprus,Country,Europe,2.411,9.42,74.41
+2020,TTO,Trinidad and Tobago,Country,Americas,6.998,9.42,25.71
+2020,AUT,Austria,Country,Europe,2.416,9.48,74.52
+2020,LSO,Lesotho,Country,Africa,4.7,9.51,50.58
+2020,LVA,Latvia,Country,Europe,1.918,9.54,79.9
+2020,CHE,Switzerland,Country,Europe,3.896,9.65,59.63
+2020,DZA,Algeria,Country,Africa,6.266,9.71,35.47
+2020,SWE,Sweden,Country,Europe,3.121,9.77,68.06
+2020,PNG,Papua New Guinea,Country,Western Pacific,4.588,9.78,53.09
+2020,PRT,Portugal,Country,Europe,2.1,9.82,78.61
+2020,PAN,Panama,Country,Americas,4.283,9.85,56.52
+2020,GLB,Global Average,Benchmark,Global,3.462,8.439,53.12
+2022,BOL,Bolivia (Plurinational State of),Country,Americas,,,31.46
+2022,COK,Cook Islands,Country,Western Pacific,,,72.83
+2022,CUB,Cuba,Country,Americas,,,10.0
+2022,PRK,Democratic People's Republic of Korea,Country,South-East Asia,,,0.0
+2022,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,73.37
+2022,ZWE,Zimbabwe,Country,Africa,,,34.5
+2022,PRY,Paraguay,Country,Americas,0.978,1.21,19.19
+2022,IRQ,Iraq,Country,Eastern Mediterranean,1.158,1.22,5.08
+2022,COD,Democratic Republic of the Congo,Country,Africa,0.618,1.29,52.11
+2022,KHM,Cambodia,Country,Western Pacific,1.199,1.63,26.45
+2022,LBY,Libya,Country,Eastern Mediterranean,1.244,1.83,32.0
+2022,LBN,Lebanon,Country,Eastern Mediterranean,1.73,1.92,9.91
+2022,LTU,Lithuania,Country,Europe,2.389,10.01,76.13
+2022,KEN,Kenya,Country,Africa,6.809,10.15,32.92
+2022,ISR,Israel,Country,Europe,2.521,10.79,76.64
+2022,ITA,Italy,Country,Europe,2.515,10.79,76.69
+2022,DNK,Denmark,Country,Europe,2.002,10.81,81.48
+2022,MLT,Malta,Country,Europe,2.441,10.88,77.56
+2022,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,1.75,11.39,84.64
+2022,NPL,Nepal,Country,South-East Asia,7.842,11.43,31.39
+2022,ISL,Iceland,Country,Europe,5.196,11.44,54.58
+2022,CZE,Czechia,Country,Europe,2.851,11.7,75.63
+2022,DEU,Germany,Country,Europe,4.168,11.72,64.44
+2022,SUR,Suriname,Country,Americas,6.036,11.9,49.28
+2022,CAN,Canada,Country,Americas,4.37,11.92,63.34
+2022,NRU,Naoero,Country,Western Pacific,6.916,11.97,42.22
+2022,MUS,Mauritius,Country,Africa,2.614,11.98,78.18
+2022,NLD,Netherlands (Kingdom of the),Country,Europe,2.787,12.09,76.95
+2022,BEL,Belgium,Country,Europe,2.447,12.18,79.91
+2022,OMN,Oman,Country,Eastern Mediterranean,4.16,12.25,66.04
+2022,PAN,Panama,Country,Americas,5.352,12.31,56.52
+2022,MYS,Malaysia,Country,Western Pacific,2.915,12.39,76.47
+2022,FIN,Finland,Country,Europe,1.342,12.71,89.44
+2022,BHS,Bahamas,Country,Americas,6.169,13.29,53.58
+2022,MDV,Maldives,Country,South-East Asia,9.575,13.53,29.23
+2022,BHR,Bahrain,Country,Eastern Mediterranean,3.682,13.83,73.38
+2022,HUN,Hungary,Country,Europe,3.905,13.95,72.01
+2022,SAU,Saudi Arabia,Country,Eastern Mediterranean,3.733,14.27,73.84
+2022,TON,Tonga,Country,Western Pacific,4.698,14.42,67.42
+2022,ROU,Romania,Country,Europe,4.548,14.7,69.06
+2022,NOR,Norway,Country,Europe,6.007,14.87,59.6
+2022,ECU,Ecuador,Country,Americas,5.389,14.99,64.05
+2022,DOM,Dominican Republic,Country,Americas,8.383,15.16,44.7
+2022,FRA,France,Country,Europe,2.766,17.05,83.78
+2022,SYC,Seychelles,Country,Africa,5.299,17.38,69.51
+2022,JAM,Jamaica,Country,Americas,10.735,17.53,38.76
+2022,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,2.859,17.56,83.72
+2022,SGP,Singapore,Country,Western Pacific,5.945,17.62,66.26
+2022,GNQ,Equatorial Guinea,Country,Africa,1.062,2.05,48.21
+2022,GNB,Guinea-Bissau,Country,Africa,1.67,2.1,20.46
+2022,CAF,Central African Republic,Country,Africa,1.407,2.23,36.9
+2022,LAO,Lao People's Democratic Republic,Country,Western Pacific,1.988,2.25,11.66
+2022,TCD,Chad,Country,Africa,1.075,2.33,53.87
+2022,BLR,Belarus,Country,Europe,1.02,2.35,56.59
+2022,BRA,Brazil,Country,Americas,0.484,2.45,80.25
+2022,ETH,Ethiopia,Country,Africa,1.293,2.51,48.49
+2022,NER,Niger,Country,Africa,1.657,2.59,36.03
+2022,PAK,Pakistan,Country,Eastern Mediterranean,1.248,2.59,51.8
+2022,BEN,Benin,Country,Africa,1.954,2.61,25.12
+2022,MHL,Marshall Islands,Country,Western Pacific,1.315,2.69,51.13
+2022,SSD,South Sudan,Country,Africa,2.206,2.75,19.79
+2022,COM,Comoros,Country,Africa,0.755,2.85,73.51
+2022,MNG,Mongolia,Country,Western Pacific,1.69,2.92,42.14
+2022,MWI,Malawi,Country,Africa,1.558,2.99,47.9
+2022,BTN,Bhutan,Country,South-East Asia,18.677,21.96,14.95
+2022,FJI,Fiji,Country,Western Pacific,13.594,22.18,38.71
+2022,LKA,Sri Lanka,Country,South-East Asia,7.423,22.44,66.92
+2022,IRL,Ireland,Country,Europe,5.384,22.49,76.06
+2022,NZL,New Zealand,Country,Western Pacific,4.029,23.4,82.78
+2022,AUS,Australia,Country,Western Pacific,5.725,24.87,76.98
+2022,BDI,Burundi,Country,Africa,1.995,3.18,37.25
+2022,TGO,Togo,Country,Africa,2.471,3.29,24.9
+2022,RWA,Rwanda,Country,Africa,1.18,3.3,64.25
+2022,COG,Congo,Country,Africa,2.524,3.36,24.87
+2022,ZMB,Zambia,Country,Africa,2.598,3.36,22.67
+2022,VNM,Viet Nam,Country,Western Pacific,2.325,3.54,34.32
+2022,MMR,Myanmar,Country,South-East Asia,2.272,3.55,36.0
+2022,HTI,Haiti,Country,Americas,2.645,3.63,27.13
+2022,GHA,Ghana,Country,Africa,2.904,3.75,22.55
+2022,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,2.809,3.78,25.69
+2022,NGA,Nigeria,Country,Africa,2.128,3.8,44.0
+2022,MRT,Mauritania,Country,Africa,3.216,3.84,16.25
+2022,BGD,Bangladesh,Country,South-East Asia,1.606,3.86,58.4
+2022,CMR,Cameroon,Country,Africa,2.398,3.89,38.36
+2022,BFA,Burkina Faso,Country,Africa,2.22,3.93,43.5
+2022,CIV,Cote d'Ivoire,Country,Africa,2.283,3.96,42.35
+2022,SEN,Senegal,Country,Africa,2.044,3.98,48.64
+2022,TKM,Turkmenistan,Country,Europe,23.777,34.62,31.32
+2022,AZE,Azerbaijan,Country,Europe,2.0,4.02,50.25
+2022,STP,Sao Tome and Principe,Country,Africa,2.834,4.04,29.85
+2022,KWT,Kuwait,Country,Eastern Mediterranean,3.077,4.05,24.02
+2022,GAB,Gabon,Country,Africa,2.509,4.09,38.65
+2022,MDG,Madagascar,Country,Africa,2.142,4.11,47.88
+2022,MOZ,Mozambique,Country,Africa,3.145,4.13,23.86
+2022,YEM,Yemen,Country,Eastern Mediterranean,1.779,4.14,57.03
+2022,MLI,Mali,Country,Africa,2.958,4.16,28.89
+2022,FSM,Micronesia (Federated States of),Country,Western Pacific,2.293,4.17,45.0
+2022,UZB,Uzbekistan,Country,Europe,1.939,4.45,56.43
+2022,UGA,Uganda,Country,Africa,3.133,4.46,29.75
+2022,TJK,Tajikistan,Country,Europe,1.834,4.47,58.96
+2022,LBR,Liberia,Country,Africa,2.925,4.5,35.01
+2022,KAZ,Kazakhstan,Country,Europe,2.287,4.61,50.39
+2022,CHN,China,Country,Western Pacific,2.21,4.62,52.16
+2022,SLB,Solomon Islands,Country,Western Pacific,2.802,4.94,43.28
+2022,TUN,Tunisia,Country,Eastern Mediterranean,1.596,5.21,69.37
+2022,ARG,Argentina,Country,Americas,1.232,5.23,76.45
+2022,GUY,Guyana,Country,Americas,3.936,5.24,24.89
+2022,GRD,Grenada,Country,Americas,2.961,5.29,44.02
+2022,KGZ,Kyrgyzstan,Country,Europe,2.608,5.35,51.25
+2022,KIR,Kiribati,Country,Western Pacific,2.652,5.4,50.89
+2022,COL,Colombia,Country,Americas,1.887,5.42,65.19
+2022,EGY,Egypt,Country,Eastern Mediterranean,1.389,5.53,74.88
+2022,AGO,Angola,Country,Africa,4.6,5.58,17.57
+2022,DMA,Dominica,Country,Americas,4.151,5.62,26.13
+2022,KNA,Saint Kitts and Nevis,Country,Americas,4.59,5.72,19.76
+2022,ARM,Armenia,Country,Europe,2.957,5.74,48.49
+2022,TZA,United Republic of Tanzania,Country,Africa,4.034,5.76,29.97
+2022,TLS,Timor-Leste,Country,South-East Asia,3.113,5.9,47.23
+2022,BLZ,Belize,Country,Americas,3.927,5.91,33.56
+2022,VCT,Saint Vincent and the Grenadines,Country,Americas,4.706,6.13,23.23
+2022,KOR,Republic of Korea,Country,Western Pacific,1.606,6.14,73.85
+2022,ATG,Antigua and Barbuda,Country,Americas,5.249,6.17,14.93
+2022,ZAF,South Africa,Country,Africa,2.494,6.25,60.09
+2022,MDA,Republic of Moldova,Country,Europe,2.248,6.5,65.42
+2022,THA,Thailand,Country,South-East Asia,1.214,6.5,81.32
+2022,CRI,Costa Rica,Country,Americas,2.938,6.55,55.14
+2022,AND,Andorra,Country,Europe,1.442,6.65,78.31
+2022,CPV,Cabo Verde,Country,Africa,3.999,6.65,39.86
+2022,TUR,Türkiye,Country,Europe,1.303,6.77,80.75
+2022,MKD,North Macedonia,Country,Europe,1.583,6.88,76.99
+2022,HND,Honduras,Country,Americas,4.283,6.94,38.29
+2022,ALB,Albania,Country,Europe,2.316,6.95,66.67
+2022,JPN,Japan,Country,Western Pacific,2.787,6.95,59.9
+2022,VUT,Vanuatu,Country,Western Pacific,1.58,7.02,77.49
+2022,MAR,Morocco,Country,Eastern Mediterranean,1.692,7.09,76.14
+2022,RUS,Russian Federation,Country,Europe,2.766,7.1,61.04
+2022,SDN,Sudan,Country,Eastern Mediterranean,1.903,7.12,73.27
+2022,GMB,Gambia,Country,Africa,3.783,7.16,47.17
+2022,BGR,Bulgaria,Country,Europe,1.061,7.2,85.27
+2022,LUX,Luxembourg,Country,Europe,2.285,7.25,68.48
+2022,IDN,Indonesia,Country,Western Pacific,1.946,7.49,74.02
+2022,PLW,Palau,Country,Western Pacific,1.947,7.51,74.07
+2022,PNG,Papua New Guinea,Country,Western Pacific,2.628,7.55,65.19
+2022,GTM,Guatemala,Country,Americas,3.857,7.56,48.98
+2022,GEO,Georgia,Country,Europe,1.939,7.6,74.49
+2022,MEX,Mexico,Country,Americas,2.476,7.64,67.59
+2022,PHL,Philippines,Country,Western Pacific,3.831,7.75,50.57
+2022,JOR,Jordan,Country,Eastern Mediterranean,1.71,7.78,78.02
+2022,URY,Uruguay,Country,Americas,2.703,7.84,65.52
+2022,PER,Peru,Country,Americas,2.11,7.91,73.32
+2022,NAM,Namibia,Country,Africa,3.967,8.03,50.6
+2022,TTO,Trinidad and Tobago,Country,Americas,5.818,8.03,27.55
+2022,BRB,Barbados,Country,Americas,4.584,8.04,42.99
+2022,HRV,Croatia,Country,Europe,1.142,8.16,86.0
+2022,SRB,Serbia,Country,Europe,2.04,8.18,75.06
+2022,UKR,Ukraine,Country,Europe,2.429,8.28,70.66
+2022,EST,Estonia,Country,Europe,0.984,8.32,88.17
+2022,LCA,Saint Lucia,Country,Americas,4.771,8.39,43.13
+2022,DZA,Algeria,Country,Africa,4.405,8.44,47.81
+2022,MNE,Montenegro,Country,Europe,2.035,8.46,75.95
+2022,CYP,Cyprus,Country,Europe,2.17,8.48,74.41
+2022,SWZ,Eswatini,Country,Africa,3.922,8.59,54.34
+2022,SLV,El Salvador,Country,Americas,4.687,8.63,45.69
+2022,SMR,San Marino,Country,Europe,2.242,8.68,74.17
+2022,LVA,Latvia,Country,Europe,1.622,8.7,81.36
+2022,SVN,Slovenia,Country,Europe,1.828,8.7,78.99
+2022,WSM,Samoa,Country,Western Pacific,4.605,8.73,47.25
+2022,TUV,Tuvalu,Country,Western Pacific,5.65,8.76,35.5
+2022,CHL,Chile,Country,Americas,1.743,8.83,80.26
+2022,USA,United States of America,Country,Americas,5.556,8.87,37.36
+2022,LSO,Lesotho,Country,Africa,4.202,8.88,52.68
+2022,QAT,Qatar,Country,Eastern Mediterranean,2.857,8.98,68.18
+2022,PRT,Portugal,Country,Europe,2.003,9.12,78.04
+2022,SWE,Sweden,Country,Europe,2.938,9.14,67.86
+2022,AUT,Austria,Country,Europe,2.397,9.22,74.0
+2022,SVK,Slovakia,Country,Europe,2.198,9.43,76.69
+2022,BIH,Bosnia and Herzegovina,Country,Europe,1.512,9.47,84.03
+2022,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.684,9.49,71.72
+2022,GRC,Greece,Country,Europe,1.792,9.54,81.22
+2022,CHE,Switzerland,Country,Europe,3.93,9.59,59.02
+2022,ESP,Spain,Country,Europe,2.223,9.92,77.59
+2022,IND,India,Country,South-East Asia,4.215,9.94,57.6
+2022,POL,Poland,Country,Europe,2.147,9.94,78.4
+2022,BWA,Botswana,Country,Africa,4.474,9.98,55.17
+2022,GLB,Global Average,Benchmark,Global,3.26,8.026,54.1
+2024,COK,Cook Islands,Country,Western Pacific,,,70.68
+2024,CUB,Cuba,Country,Americas,,,59.56
+2024,MCO,Monaco,Country,Europe,,,16.67
+2024,PSE,"occupied Palestinian territory, including east Jerusalem",Country,Eastern Mediterranean,,,87.89
+2024,SYR,Syrian Arab Republic,Country,Eastern Mediterranean,,,38.5
+2024,VEN,Venezuela (Bolivarian Republic of),Country,Americas,,,73.37
+2024,ZWE,Zimbabwe,Country,Africa,,,38.43
+2024,SSD,South Sudan,Country,Africa,0.89,1.19,25.25
+2024,SOM,Somalia,Country,Eastern Mediterranean,1.152,1.24,7.09
+2024,LBY,Libya,Country,Eastern Mediterranean,0.692,1.26,45.05
+2024,PRY,Paraguay,Country,Americas,1.079,1.35,20.04
+2024,COD,Democratic Republic of the Congo,Country,Africa,0.67,1.4,52.11
+2024,KHM,Cambodia,Country,Western Pacific,1.111,1.51,26.45
+2024,LBN,Lebanon,Country,Eastern Mediterranean,1.532,1.7,9.91
+2024,SLE,Sierra Leone,Country,Africa,1.139,1.75,34.91
+2024,GIN,Guinea,Country,Africa,1.699,1.85,8.18
+2024,MNG,Mongolia,Country,Western Pacific,1.041,1.94,46.34
+2024,LTU,Lithuania,Country,Europe,2.352,10.0,76.48
+2024,SVK,Slovakia,Country,Europe,2.407,10.08,76.12
+2024,ITA,Italy,Country,Europe,2.348,10.2,76.98
+2024,NPL,Nepal,Country,South-East Asia,6.98,10.25,31.9
+2024,POL,Poland,Country,Europe,2.148,10.26,79.06
+2024,MLT,Malta,Country,Europe,2.444,10.27,76.2
+2024,NRU,Naoero,Country,Western Pacific,6.015,10.41,42.22
+2024,ISR,Israel,Country,Europe,2.007,10.49,80.87
+2024,DNK,Denmark,Country,Europe,1.753,10.58,83.43
+2024,QAT,Qatar,Country,Eastern Mediterranean,3.794,11.16,66.0
+2024,CZE,Czechia,Country,Europe,2.675,11.47,76.68
+2024,ISL,Iceland,Country,Europe,5.35,11.56,53.72
+2024,CAN,Canada,Country,Americas,4.189,11.74,64.32
+2024,MUS,Mauritius,Country,Africa,2.618,11.83,77.87
+2024,BTN,Bhutan,Country,South-East Asia,9.061,11.86,23.6
+2024,DEU,Germany,Country,Europe,4.677,12.13,61.44
+2024,PAN,Panama,Country,Americas,5.344,12.29,56.52
+2024,HUN,Hungary,Country,Europe,3.662,12.59,70.91
+2024,MYS,Malaysia,Country,Western Pacific,3.134,12.62,75.17
+2024,OMN,Oman,Country,Eastern Mediterranean,4.357,12.83,66.04
+2024,LCA,Saint Lucia,Country,Americas,6.194,12.92,52.06
+2024,FIN,Finland,Country,Europe,1.313,13.17,90.03
+2024,BHS,Bahamas,Country,Americas,6.82,13.5,49.48
+2024,SUR,Suriname,Country,Americas,9.339,13.7,31.83
+2024,ROU,Romania,Country,Europe,4.634,13.84,66.52
+2024,MDV,Maldives,Country,South-East Asia,4.891,13.99,65.04
+2024,TON,Tonga,Country,Western Pacific,3.972,14.23,72.09
+2024,BHR,Bahrain,Country,Eastern Mediterranean,3.849,14.46,73.38
+2024,SAU,Saudi Arabia,Country,Eastern Mediterranean,3.796,14.51,73.84
+2024,ECU,Ecuador,Country,Americas,5.167,14.62,64.66
+2024,DOM,Dominican Republic,Country,Americas,8.313,14.84,43.98
+2024,JAM,Jamaica,Country,Americas,9.564,15.34,37.65
+2024,NLD,Netherlands (Kingdom of the),Country,Europe,3.183,16.15,80.29
+2024,BEL,Belgium,Country,Europe,2.866,16.24,82.35
+2024,SYC,Seychelles,Country,Africa,5.496,17.08,67.82
+2024,NOR,Norway,Country,Europe,7.86,18.59,57.72
+2024,FRA,France,Country,Europe,3.159,18.66,83.07
+2024,SGP,Singapore,Country,Western Pacific,5.585,19.4,71.21
+2024,CAF,Central African Republic,Country,Africa,1.275,2.02,36.9
+2024,LAO,Lao People's Democratic Republic,Country,Western Pacific,1.942,2.19,11.34
+2024,GNQ,Equatorial Guinea,Country,Africa,1.15,2.21,47.95
+2024,GNB,Guinea-Bissau,Country,Africa,1.866,2.32,19.59
+2024,NER,Niger,Country,Africa,1.515,2.32,34.69
+2024,TCD,Chad,Country,Africa,1.301,2.35,44.63
+2024,BEN,Benin,Country,Africa,1.676,2.47,32.13
+2024,COM,Comoros,Country,Africa,0.692,2.62,73.6
+2024,BDI,Burundi,Country,Africa,1.702,2.93,41.92
+2024,IRN,Iran (Islamic Republic of),Country,Eastern Mediterranean,1.853,2.96,37.39
+2024,GBR,United Kingdom of Great Britain and Northern Ireland,Country,Europe,3.941,20.15,80.44
+2024,FJI,Fiji,Country,Western Pacific,13.348,21.81,38.8
+2024,IRL,Ireland,Country,Europe,4.977,22.43,77.81
+2024,NZL,New Zealand,Country,Western Pacific,5.803,26.0,77.68
+2024,AUS,Australia,Country,Western Pacific,8.08,26.19,69.15
+2024,DJI,Djibouti,Country,Eastern Mediterranean,1.948,3.02,35.51
+2024,VNM,Viet Nam,Country,Western Pacific,1.909,3.04,37.22
+2024,LBR,Liberia,Country,Africa,1.852,3.15,41.21
+2024,STP,Sao Tome and Principe,Country,Africa,1.437,3.26,55.92
+2024,YEM,Yemen,Country,Eastern Mediterranean,1.471,3.35,56.1
+2024,MMR,Myanmar,Country,South-East Asia,2.22,3.37,34.12
+2024,BRA,Brazil,Country,Americas,0.705,3.43,79.44
+2024,PAK,Pakistan,Country,Eastern Mediterranean,1.353,3.46,60.91
+2024,BGD,Bangladesh,Country,South-East Asia,0.937,3.48,73.08
+2024,MRT,Mauritania,Country,Africa,2.955,3.56,16.99
+2024,MOZ,Mozambique,Country,Africa,2.641,3.57,26.03
+2024,TGO,Togo,Country,Africa,2.428,3.61,32.75
+2024,HTI,Haiti,Country,Americas,2.689,3.69,27.13
+2024,MWI,Malawi,Country,Africa,2.189,3.76,41.79
+2024,IRQ,Iraq,Country,Eastern Mediterranean,3.561,3.79,6.05
+2024,MDG,Madagascar,Country,Africa,2.083,3.82,45.47
+2024,MLI,Mali,Country,Africa,2.838,3.92,27.59
+2024,TKM,Turkmenistan,Country,Europe,23.186,33.76,31.32
+2024,LKA,Sri Lanka,Country,South-East Asia,10.874,34.38,68.37
+2024,COG,Congo,Country,Africa,2.614,4.02,34.97
+2024,UGA,Uganda,Country,Africa,2.909,4.04,27.99
+2024,CMR,Cameroon,Country,Africa,2.611,4.07,35.85
+2024,RWA,Rwanda,Country,Africa,1.691,4.22,59.92
+2024,NGA,Nigeria,Country,Africa,2.206,4.32,48.94
+2024,KWT,Kuwait,Country,Eastern Mediterranean,3.539,4.36,18.82
+2024,SLB,Solomon Islands,Country,Western Pacific,2.501,4.41,43.28
+2024,ETH,Ethiopia,Country,Africa,2.444,4.52,45.93
+2024,BLR,Belarus,Country,Europe,1.054,4.56,76.88
+2024,CIV,Cote d'Ivoire,Country,Africa,2.634,4.63,43.12
+2024,BFA,Burkina Faso,Country,Africa,2.559,4.68,45.33
+2024,SEN,Senegal,Country,Africa,2.44,4.75,48.64
+2024,UZB,Uzbekistan,Country,Europe,2.363,4.75,50.25
+2024,MHL,Marshall Islands,Country,Western Pacific,3.375,4.76,29.1
+2024,TUN,Tunisia,Country,Eastern Mediterranean,1.466,4.81,69.52
+2024,TLS,Timor-Leste,Country,South-East Asia,1.474,4.93,70.11
+2024,BOL,Bolivia (Plurinational State of),Country,Americas,3.15,5.01,37.13
+2024,TJK,Tajikistan,Country,Europe,2.299,5.08,54.74
+2024,CHN,China,Country,Western Pacific,2.384,5.09,53.17
+2024,ZMB,Zambia,Country,Africa,4.247,5.23,18.79
+2024,AZE,Azerbaijan,Country,Europe,2.642,5.27,49.87
+2024,KGZ,Kyrgyzstan,Country,Europe,2.795,5.47,48.91
+2024,KAZ,Kazakhstan,Country,Europe,2.95,5.53,46.65
+2024,COL,Colombia,Country,Americas,2.112,5.67,62.76
+2024,AGO,Angola,Country,Africa,4.638,5.69,18.48
+2024,TZA,United Republic of Tanzania,Country,Africa,3.916,5.7,31.3
+2024,KOR,Republic of Korea,Country,Western Pacific,1.498,5.73,73.85
+2024,KNA,Saint Kitts and Nevis,Country,Americas,4.67,5.82,19.76
+2024,TUR,Türkiye,Country,Europe,1.075,5.82,81.53
+2024,ATG,Antigua and Barbuda,Country,Americas,4.461,5.84,23.61
+2024,GTM,Guatemala,Country,Americas,3.092,6.06,48.98
+2024,GHA,Ghana,Country,Africa,3.781,6.11,38.11
+2024,DMA,Dominica,Country,Americas,4.643,6.22,25.35
+2024,TTO,Trinidad and Tobago,Country,Americas,4.081,6.28,35.02
+2024,VCT,Saint Vincent and the Grenadines,Country,Americas,5.023,6.32,20.53
+2024,EGY,Egypt,Country,Eastern Mediterranean,2.267,6.41,64.63
+2024,JPN,Japan,Country,Western Pacific,2.578,6.43,59.9
+2024,ZAF,South Africa,Country,Africa,2.656,6.43,58.7
+2024,THA,Thailand,Country,South-East Asia,1.426,6.67,78.62
+2024,ALB,Albania,Country,Europe,2.263,6.79,66.67
+2024,BGR,Bulgaria,Country,Europe,1.058,6.82,84.48
+2024,ARM,Armenia,Country,Europe,3.497,6.84,48.87
+2024,BLZ,Belize,Country,Americas,4.93,6.89,28.44
+2024,MKD,North Macedonia,Country,Europe,1.529,6.9,77.84
+2024,ARG,Argentina,Country,Americas,1.49,6.93,78.5
+2024,MDA,Republic of Moldova,Country,Europe,2.147,6.95,69.11
+2024,PLW,Palau,Country,Western Pacific,1.542,7.03,78.06
+2024,MAR,Morocco,Country,Eastern Mediterranean,1.588,7.22,78.0
+2024,AND,Andorra,Country,Europe,1.939,7.24,73.22
+2024,GUY,Guyana,Country,Americas,5.601,7.24,22.64
+2024,HRV,Croatia,Country,Europe,1.02,7.28,85.99
+2024,PNG,Papua New Guinea,Country,Western Pacific,2.552,7.33,65.19
+2024,VUT,Vanuatu,Country,Western Pacific,2.482,7.4,66.46
+2024,GRD,Grenada,Country,Americas,2.198,7.48,70.61
+2024,HND,Honduras,Country,Americas,4.661,7.48,37.69
+2024,LUX,Luxembourg,Country,Europe,2.348,7.58,69.02
+2024,SRB,Serbia,Country,Europe,1.727,7.6,77.28
+2024,CRI,Costa Rica,Country,Americas,3.638,7.78,53.24
+2024,MEX,Mexico,Country,Americas,2.538,7.82,67.54
+2024,WSM,Samoa,Country,Western Pacific,4.01,7.91,49.3
+2024,JOR,Jordan,Country,Eastern Mediterranean,1.683,7.92,78.75
+2024,URY,Uruguay,Country,Americas,2.664,7.96,66.53
+2024,RUS,Russian Federation,Country,Europe,3.472,8.04,56.81
+2024,PHL,Philippines,Country,Western Pacific,3.941,8.06,51.1
+2024,DZA,Algeria,Country,Africa,4.013,8.11,50.52
+2024,BRB,Barbados,Country,Americas,4.816,8.14,40.84
+2024,CHL,Chile,Country,Americas,1.421,8.16,82.58
+2024,CYP,Cyprus,Country,Europe,2.181,8.19,73.37
+2024,SWZ,Eswatini,Country,Africa,3.936,8.24,52.23
+2024,SLV,El Salvador,Country,Americas,4.522,8.31,45.58
+2024,SMR,San Marino,Country,Europe,2.162,8.37,74.17
+2024,MNE,Montenegro,Country,Europe,2.066,8.4,75.4
+2024,CPV,Cabo Verde,Country,Africa,4.631,8.42,45.0
+2024,IDN,Indonesia,Country,Western Pacific,1.777,8.42,78.9
+2024,EST,Estonia,Country,Europe,1.069,8.51,87.44
+2024,NAM,Namibia,Country,Africa,4.263,8.52,49.96
+2024,GEO,Georgia,Country,Europe,2.64,8.64,69.45
+2024,GAB,Gabon,Country,Africa,5.774,8.65,33.25
+2024,GRC,Greece,Country,Europe,1.624,8.65,81.22
+2024,GMB,Gambia,Country,Africa,4.894,8.78,44.26
+2024,SVN,Slovenia,Country,Europe,1.986,8.82,77.48
+2024,USA,United States of America,Country,Americas,5.805,8.91,34.85
+2024,AUT,Austria,Country,Europe,2.405,9.0,73.28
+2024,KEN,Kenya,Country,Africa,5.988,9.09,34.13
+2024,PER,Peru,Country,Americas,3.601,9.15,60.65
+2024,PRT,Portugal,Country,Europe,1.9,9.16,79.26
+2024,SWE,Sweden,Country,Europe,2.943,9.25,68.18
+2024,IND,India,Country,South-East Asia,3.883,9.3,58.25
+2024,BIH,Bosnia and Herzegovina,Country,Europe,1.684,9.31,81.91
+2024,ESP,Spain,Country,Europe,2.145,9.4,77.18
+2024,ARE,United Arab Emirates,Country,Eastern Mediterranean,2.675,9.46,71.72
+2024,UKR,Ukraine,Country,Europe,3.106,9.47,67.2
+2024,CHE,Switzerland,Country,Europe,3.912,9.49,58.78
+2024,KIR,Kiribati,Country,Western Pacific,7.153,9.63,25.72
+2024,LVA,Latvia,Country,Europe,1.823,9.68,81.17
+2024,BWA,Botswana,Country,Africa,3.914,9.86,60.3
+2024,LSO,Lesotho,Country,Africa,4.146,9.92,58.21
+2024,GLB,Global Average,Benchmark,Global,3.309,8.196,54.37
