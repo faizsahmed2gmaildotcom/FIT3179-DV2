@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 540,
+  "padding": 10,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "projection": {
+    "type": "mercator",
+    "center": [133.5, -28],
+    "scale": 750
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2022,
+      "bind": {
+        "input": "select",
+        "options": [2015, 2018, 2022],
+        "name": "Year: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "PHA_2021_Aust_GDA2020_Gen50"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f4f6f4",
+        "stroke": "#d0d8d3",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.Name", "type": "nominal", "title": "Population Health Area"},
+          {"field": "properties.Code", "type": "nominal", "title": "PHA Code"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/shared/australia.json",
+        "format": {"type": "topojson", "feature": "australia"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#888888",
+        "strokeWidth": 1.0
+      }
+    },
+    {
+      "data": {
+        "url": "data/parsed/australia_smokers_dot_density.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == selected_year"},
+        {"calculate": "'1 dot = 500 smokers'", "as": "dot_value"}
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 12,
+        "fill": "#e1b987",
+        "opacity": 0.65,
+        "stroke": "#ffffff",
+        "strokeWidth": 0.3
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "tooltip": [
+          {"field": "region_name", "type": "nominal", "title": "Region"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "dot_value", "type": "nominal", "title": "Dot Density"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {"stroke": null},
+    "style": {"cell": {"stroke": "transparent"}},
+    "font": "Helvetica Now, Arial, sans-serif",
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 14
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {"font": "Helvetica Now, Arial, sans-serif"}
+  }
+}

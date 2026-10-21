@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tobacco in Australia: A Data Story</title>
+
+  <!-- Vega Libraries (Vega 6) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <!-- Shared Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-container">
+
+    <!-- HERO SECTION (1. Title & 2. Introduction) -->
+    <header class="hero-section">
+      <h1 class="hero-title">Tobacco in Australia: A Data Story</h1>
+      <p class="hero-subtitle">
+        From global consumption patterns to domestic environmental impacts and healthcare admissions,
+        explore how tobacco shapes the Australian landscape across populations and geographic regions.
+      </p>
+      <div class="scroll-hint">Scroll down to explore the narrative</div>
+    </header>
+
+    <!-- MAIN LAYOUT: TWO COLUMNS -->
+    <div class="main-layout">
+      <!-- LEFT COLUMN: 5 Map Idioms -->
+      <div class="col-left">
+        <!-- 1. Choropleth Map -->
+        <div class="glass-card" id="choropleth-card">
+          <h2 class="section-title">Global Smoking Prevalence</h2>
+          <div class="vis-container" id="choropleth-vis"></div>
+          <div class="story-callout">
+            <p>Australia has always had healthier smoking habits relative to the rest of the world. Even in the 2000s when Australia still produced their own tobacco, they were much healthier than most of the world. Australia's a well-developed country advocating for healthy lifestyle, and this statistic supports that fact especially when compared to less developed countries like India and Myanmar.</p>
+          </div>
+          <p class="source-line">“Share of adults who smoke or use other tobacco,” Our World in Data<br><a style="color: inherit;" href="https://ourworldindata.org/grapher/share-of-adults-who-smoke">https://ourworldindata.org/grapher/share-of-adults-who-smoke</a> (published 2024; accessed Oct. 20, 2026). </p>
+        </div>
+
+        <!-- 2. Flow Map -->
+        <div class="glass-card" id="flow-card">
+          <h2 class="section-title">Tobacco Flows to Australia</h2>
+          <div class="vis-container" id="flow-vis"></div>
+          <div class="story-callout">
+            <p>Since 2006, commercial tobacco farming in Australia ceased entirely; all tobacco products are 100% imported. Stricter domestic regulations, advertising bans, and excise taxes coincided with domestic farming winding down while import flows shifted across global trade partners.</p>
+          </div>
+          <p class="source-line">“UN comtrade,” United Nations<br><a style="color: inherit;" href="https://comtradeplus.un.org">https://comtradeplus.un.org</a> (published 2025, accessed Oct. 20, 2026). </p>
+        </div>
+
+        <!-- 3. Dot Map -->
+        <div class="glass-card" id="dotmap-card">
+          <h2 class="section-title">Where Smokers Smoke</h2>
+          <div class="vis-container" id="dotmap-vis"></div>
+          <div class="story-callout">
+            <p>Smoking is most prominent in the developed, populated regions along Australia's eastern and southeastern coasts, where the majority of the population resides.</p>
+          </div>
+          <p class="source-line">Data archive: Social Health Atlases of Australia,” Torrens University<br><a style="color: inherit;" href="https://phidu.torrens.edu.au/social-health-atlases/data-archive">https://phidu.torrens.edu.au/social-health-atlases/data-archive</a> (published 2025, accessed Oct. 7, 2026).</p>
+        </div>
+
+        <!-- 4. Hex Bin Map -->
+        <div class="glass-card" id="hexbin-card">
+          <h2 class="section-title">Australian Bushfire Activity</h2>
+          <div class="vis-container" id="hexbin-vis"></div>
+          <div class="story-callout">
+            <p>One could say smoking contributes to bushfires, but the empirical contribution is negligible. As annotated on this map, there seems to be no locational correlation between smokers and bushfires when comparing this map to the smokers map above.</p>
+          </div>
+          <p class="source-line">“Firms,” NASA<br><a style="color: inherit;" href="https://firms.modaps.eosdis.nasa.gov">https://firms.modaps.eosdis.nasa.gov</a> (published Oct. 18 2026, accessed Oct. 18, 2026).</p>
+        </div>
+
+        <!-- 5. Proportional Symbol Map -->
+        <div class="glass-card" id="propsym-card">
+          <h2 class="section-title">Cardiothoracic Healthcare Impact</h2>
+          <div class="vis-container" id="propsym-vis"></div>
+          <div class="story-callout">
+            <p>As COVID-19 came to an end in 2023, heart/lung-related admissions spiked across the board. People could go out without masks and smoke again.</p>
+          </div>
+          <p class="source-line">“Data - Australian Institute of Health and Welfare,” AIHW Data<br><a style="color: inherit;" href="https://www.aihw.gov.au/hospitals/latest-updates-and-downloads/data">https://www.aihw.gov.au/hospitals/latest-updates-and-downloads/data</a> (published 2024, accessed Oct. 21, 2026). </p>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Dot Plot + 4 Placeholders -->
+      <div class="col-right">
+        <!-- 1. Dot Plot -->
+        <div class="glass-card" id="dotplot-card">
+          <h2 class="section-title">Smokers vs. Bushfires</h2>
+          <div class="vis-container" id="dotplot-vis"></div>
+          <div class="story-callout">
+            <p>Following on from the bushfire activity map, it can be clearly seen that there is indeed no clear locational correlation between bushfires and smokers as R<sup>2</sup> is always small.</p>
+          </div>
+          <p class="source-line">"Data archive: Social Health Atlases of Australia,” Torrens University<br><a style="color: inherit;" href="https://phidu.torrens.edu.au/social-health-atlases/data-archive">https://phidu.torrens.edu.au/social-health-atlases/data-archive</a> (published 2025, accessed Oct. 7, 2026).</p>
+          <p class="source-line">“Firms,” NASA<br><a style="color: inherit;" href="https://firms.modaps.eosdis.nasa.gov">https://firms.modaps.eosdis.nasa.gov</a> (published Oct. 18 2026, accessed Oct. 18, 2026).</p>
+        </div>
+
+        <!-- Parallel Coordinates Plot -->
+        <div class="glass-card" id="parallel-coords-card">
+          <h2 class="section-title">Multidimensional Health Impacts & Benchmarks</h2>
+          <div class="vis-container" id="parallel-coords-vis"></div>
+          <div class="story-callout">
+            <p>Simultaneously comparing attributable deaths, DALYs (Disability-Adjusted Life Years), and YLLs (Years of Life Lost) across global countries. Australia's profile stands out clearly with a high-contrast accent line, while dashed lines mark WHO regional benchmarks to evaluate holistic health outcomes. Australia ranks lower than most across the board, which is a good thing!</p>
+          </div>
+          <p class="source-line">“Global burden of disease study 2023 (GBD 2023) years lived with disability, disability-adjusted life years, healthy life expectancy, and risk-attributable burden 1990-2023,” GHDx<br><a style="color: inherit;" href="https://ghdx.healthdata.org/record/ihme-data/gbd-2023-yld-daly-hale-risk-1990-2023">https://ghdx.healthdata.org/record/ihme-data/gbd-2023-yld-daly-hale-risk-1990-2023</a> (accessed Oct. 21, 2026).</p>
+        </div>
+
+        <!-- 3. Historical Smoking Prevalence Trends -->
+        <div class="glass-card" id="historical-trends-card">
+          <h2 class="section-title">Historical Smoking Prevalence Trends</h2>
+          <div class="vis-container" id="historical-trends-vis"></div>
+          <div class="story-callout">
+            <p>Comparing Australia's long-term adult smoking prevalence (2000–2024) against global and regional benchmarks reveals a steady, multi-decade downward trajectory driven by aggressive public health interventions, outperforming global averages consistently.</p>
+          </div>
+          <p class="source-line">“Share of adults who smoke or use other tobacco,” Our World in Data<br><a style="color: inherit;" href="https://ourworldindata.org/grapher/share-of-adults-who-smoke">https://ourworldindata.org/grapher/share-of-adults-who-smoke</a> (published 2024; accessed Oct. 20, 2026). </p>
+        </div>
+
+        <!-- 4. Top Tobacco Import Partners & Trade Value -->
+        <div class="glass-card" id="import-partners-card">
+          <h2 class="section-title">Top Tobacco Import Partners & Trade Value</h2>
+          <div class="vis-container" id="import-partners-vis"></div>
+          <div class="story-callout">
+            <p>Since commercial domestic tobacco farming ceased entirely in 2006, 100% of tobacco consumed in Australia is imported. Key supplier nations and trade values illustrate the international supply chain feeding domestic consumption.</p>
+          </div>
+          <p class="source-line">“UN comtrade,” United Nations<br><a style="color: inherit;" href="https://comtradeplus.un.org">https://comtradeplus.un.org</a> (published 2025, accessed Oct. 20, 2026).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAX DECOMPOSITION SECTION (Full width, centered, spanning the page) -->
+    <div class="glass-card glass-card-centered" id="tax-decomposition-card">
+      <h2 class="section-title">Australia vs. Global Tobacco Tax Stack Decomposition</h2>
+      <div class="vis-container" id="tax-decomposition-vis"></div>
+      <div class="story-callout">
+        <p>Although the base price of cigarette packs across the world are similar, Australia's shelf price far exceeds the global average and that of select countries'! Even though final cost isn't everything, there is still a greater share of tax put on cigarette packs in Australia compared to the world average, suggesting that the Australian government is actively trying to dial down on smokers.</p>
+      </div>
+      <p class="source-line">
+        “Tobacco mpower raise taxes: Tobacco and nicotine products national taxes,” World Health Organization<br><a style="color: inherit;" href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/tobacco-raise-taxes--national-taxes-for-and-nicotine-products">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/tobacco-raise-taxes--national-taxes-for-and-nicotine-products</a> (published July 7, 2026; accessed Oct. 20, 2026).<br><br>
+        "Tobacco mpower raise taxes: Inflation-adjusted prices for most sold brand of cigarettes," World Health Organization<br><a style="color: inherit;" href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/tobacco-raise-taxes--inflation-adjusted-prices-for-most-sold-brand-of-cigarettes">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/tobacco-raise-taxes--inflation-adjusted-prices-for-most-sold-brand-of-cigarettes</a> (published Aug. 18, 2025; accessed Oct. 20, 2026).
+      </p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <p class="footer-text">
+        Created by Faiz Saadat Ahmed for FIT3179 Data Visualisation 2, Monash University, Semester 2 2026.
+        This work is licensed under CC BY 4.0.
+      </p>
+      <div class="footer-links">
+        <span>Data Sources: OurWorldInData, UN Comtrade, PHIDU, NASA FIRMS, AIHW</span>
+        <span>Libraries: Vega 6 & Vega-Lite 6</span>
+        <span>AI Tools: Anthropic Claude for design and code structuring assistance</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Embed all visualizations with Vega 6 -->
+  <script>
+    // 1. Choropleth Map
+    vegaEmbed('#choropleth-vis', 'js/choropleth-map-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 2. Flow Map
+    vegaEmbed('#flow-vis', 'js/flow-map-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 3. Dot Map
+    vegaEmbed('#dotmap-vis', 'js/dot-map-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 4. Hex Bin Map
+    vegaEmbed('#hexbin-vis', 'js/hexbin-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 5. Proportional Symbol Map
+    vegaEmbed('#propsym-vis', 'js/propsym-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 6. Dot Plot
+    vegaEmbed('#dotplot-vis', 'js/dot-plot-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 7. Parallel Coordinates Plot
+      vegaEmbed('#parallel-coords-vis', 'js/parallel-coordinates-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 8. Historical Smoking Prevalence Trends
+    vegaEmbed('#historical-trends-vis', 'js/historical-trends-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 9. Top Tobacco Import Partners & Trade Value
+    vegaEmbed('#import-partners-vis', 'js/import-partners-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+
+    // 10. Tax Decomposition Stacked Bar & Dumbbell Hybrid
+    vegaEmbed('#tax-decomposition-vis', 'js/tax-stacked-bar-spec.json', {
+      defaultStyle: true,
+      renderer: 'svg',
+      actions: false
+    }).catch(console.error);
+  </script>
+</body>
+</html>

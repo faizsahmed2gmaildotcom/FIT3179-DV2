@@ -1,0 +1,239 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 480,
+  "padding": 10,
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/parsed/smokers_vs_bushfires.csv"
+  },
+  "params": [
+    {
+      "name": "min_bushfires",
+      "value": 50,
+      "bind": {
+        "input": "range",
+        "min": 50,
+        "max": 10000,
+        "step": 50,
+        "name": "Minimum Bushfires: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.num_bushfires >= min_bushfires"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "opacity": 0.65,
+        "size": 55,
+        "color": "#e1b987",
+        "stroke": "#3c2613",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "x": {
+          "field": "num_smokers",
+          "type": "quantitative",
+          "title": "Number of Smokers",
+          "scale": {
+            "type": "symlog",
+            "constant": {
+              "expr": "100"
+            },
+            "zero": true
+          },
+          "axis": {
+            "format": ",d",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
+        },
+        "y": {
+          "field": "num_bushfires",
+          "type": "quantitative",
+          "title": "Number of Bushfires (from Hex Bin Map)",
+          "scale": {
+            "type": "symlog",
+            "constant": {
+              "expr": "100"
+            },
+            "zero": true,
+            "domainMin": 0
+          },
+          "axis": {
+            "format": ",d",
+            "labelFontSize": 10,
+            "titleFontSize": 12
+          }
+        },
+        "tooltip": [
+          {
+            "field": "region_name",
+            "type": "nominal",
+            "title": "Region"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year"
+          },
+          {
+            "field": "num_smokers",
+            "type": "quantitative",
+            "title": "Smokers",
+            "format": ",d"
+          },
+          {
+            "field": "num_bushfires",
+            "type": "quantitative",
+            "title": "Bushfires",
+            "format": ",d"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#3c2613",
+        "strokeWidth": 2.5
+      },
+      "transform": [
+        {
+          "regression": "num_bushfires",
+          "on": "num_smokers",
+          "method": "linear",
+          "extent": [
+            0,
+            23315
+          ]
+        },
+        {
+          "calculate": "max(0, datum.num_bushfires)",
+          "as": "num_bushfires"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "num_smokers",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "num_bushfires",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "num_bushfires",
+          "on": "num_smokers",
+          "method": "linear",
+          "extent": [
+            0,
+            23315
+          ],
+          "params": true
+        },
+        {
+          "calculate": "1200.0",
+          "as": "mid_x"
+        },
+        {
+          "calculate": "max(0, abs(datum.coef[0]) + abs(datum.coef[1]) * 1500.0)",
+          "as": "mid_y"
+        },
+        {
+          "calculate": "'R² = ' + format(datum.rSquared, '.3f') + ' (No Correlation)'",
+          "as": "r2_text"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "bottom",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#3c2613",
+        "dy": -8
+      },
+      "encoding": {
+        "x": {
+          "field": "mid_x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "mid_y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "r2_text",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {"values": [{"x": 1200, "y": 30, "text": "Correlation spikes to 0.25! But it's still too small to draw a conclusion."}]},
+      "transform": [
+        {"filter": "min_bushfires >= 1200 && min_bushfires <= 5000"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "font": "Helvetica Now, Arial, sans-serif",
+        "color": "#c62828"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "text", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "font": "Helvetica Now, Arial, sans-serif",
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "rgba(0,0,0,0.06)"
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {
+      "font": "Helvetica Now, Arial, sans-serif"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 560,
+  "padding": 10,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "projection": {
+    "type": "naturalEarth1",
+    "center": [0, 0],
+    "scale": 130
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2024,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/shared/ne_50m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e8e4dc",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {"url": "data/parsed/global-share-of-adults-who-smoke.csv"},
+      "transform": [
+        {"filter": "datum.Year == selected_year"},
+        {
+          "lookup": "Code",
+          "from": {
+            "data": {
+              "url": "data/shared/ne_50m_admin_0_countries.json",
+              "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+            },
+            "key": "properties.ISO_A3"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.geo != null"}
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "Share of adults who smoke or use tobacco (age-standardized)",
+          "type": "quantitative",
+          "title": "Adult Smoking Share (%)",
+          "scale": {
+            "domain": [0, 60],
+            "range": ["#fffac4", "#ecdcb7", "#e1b987", "#3c2613", "#150b03"]
+          },
+          "legend": {
+            "orient": "bottom-right",
+            "gradientLength": 180,
+            "titleLimit": 200,
+            "labelFontSize": 12,
+            "titleFontSize": 13
+          }
+        },
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Country"},
+          {"field": "Share of adults who smoke or use tobacco (age-standardized)", "type": "quantitative", "title": "Smoking Share (%)", "format": ".1f"},
+          {"field": "Year", "type": "quantitative", "title": "Year"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {"stroke": null},
+    "style": {"cell": {"stroke": "transparent"}},
+    "font": "Helvetica Now, Arial, sans-serif",
+    "title": {"font": "Old Dreams, serif", "fontSize": 20, "fontWeight": "normal"},
+    "axis": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 14
+    },
+    "header": {
+      "labelFont": "Helvetica Now, Arial, sans-serif",
+      "titleFont": "Helvetica Now, Arial, sans-serif"
+    },
+    "mark": {"font": "Helvetica Now, Arial, sans-serif"}
+  }
+}
