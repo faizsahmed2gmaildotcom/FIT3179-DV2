@@ -1,0 +1,382 @@
+/* ========================================
+ * Apple Liquid Glass Design System
+ * FIT3179-DV2 Combined Visualization Page
+ * ======================================== */
+
+/* 1. Font-face declarations for Old Dreams and Helvetica Now */
+@font-face {
+  font-family: 'Old Dreams';
+  src: url('fonts/Old Dreams.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Now';
+  src: url('fonts/helveticanowtext-bold-demo.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* 2. CSS custom properties (:root) block containing all color variables */
+:root {
+  /* Cigarette Palette (Data) */
+  --c1: #fffac4;
+  --c2: #ecdcb7;
+  --c3: #e1b987;
+  --c4: #3c2613;
+  --c5: #150b03;
+
+  /* Background and Surface Colors */
+  --bg-primary: #f5f5f7;
+  --bg-secondary: #fafafa;
+  --bg-glass: rgba(255, 255, 255, 0.72);
+  --bg-glass-hover: rgba(255, 255, 255, 0.88);
+  --border-glass: rgba(0, 0, 0, 0.08);
+
+  /* Text Colors */
+  --text-primary: #1d1d1f;
+  --text-secondary: #86868b;
+  --text-tertiary: #aeaeb2;
+
+  /* Semantic Colors */
+  --semantic-green: #34c759;
+  --semantic-red: #ff3b30;
+  --semantic-amber: #ff9f0a;
+}
+
+/* 3. Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Body styles with dot-pattern background */
+body {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+  font-family: 'Helvetica Now', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
+
+/* 5. Typography classes */
+.hero-title {
+  font-size: 56px;
+  line-height: 1.1;
+  font-family: 'Old Dreams', serif;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.hero-subtitle {
+  font-size: 21px;
+  line-height: 1.5;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 32px auto;
+}
+
+.section-title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-family: 'Old Dreams', serif;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.story-text {
+  font-size: 15px;
+  line-height: 1.45;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-primary);
+}
+
+.source-line {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-tertiary);
+  margin-top: 14px;
+  text-align: center;
+}
+
+.callout-text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+/* 6. Layout classes */
+.page-container {
+  max-width: none;
+  margin: 0;
+  padding: 0 150px;
+}
+
+.main-layout {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+  align-items: stretch;
+}
+
+.col-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.col-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.col-right .glass-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-section {
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+/* 7. Glass card classes */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--border-glass);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.02);
+  padding: 28px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.glass-card-centered {
+  width: 85%;
+  margin: 100px auto 0 auto;
+}
+
+.glass-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.03);
+  transform: translateY(-2px);
+}
+
+/* 8. Storytelling callout */
+.story-callout {
+  margin: 24px 0;
+  padding: 18px 22px;
+  background: rgba(255, 250, 196, 0.35);
+  border-left: 3px solid var(--c4);
+  border-radius: 12px;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.story-callout p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.story-callout strong {
+  color: var(--c4);
+  font-weight: 600;
+}
+
+/* Firefox fallback for backdrop-filter */
+@supports not (backdrop-filter: blur(20px)) {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.92);
+  }
+}
+
+/* 9. Vega binding overrides */
+.vega-bindings input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--c1), var(--c3), var(--c5));
+  border-radius: 3px;
+  outline: none;
+}
+
+.vega-bindings input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid var(--c4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.vega-bindings input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid var(--c4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.vega-bindings select {
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px 32px 8px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  background: #ffffff;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2386868b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  cursor: pointer;
+}
+
+.vega-bindings input[type="radio"] {
+  accent-color: var(--c4);
+}
+
+.vega-bindings label,
+.vega-bindings .vega-bind-name {
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* 10. Vega embed container */
+.vis-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.vis-container canvas {
+  border-radius: 16px;
+}
+
+/* Storytelling callout - floating annotation card */
+.story-callout::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 16px;
+  bottom: 16px;
+  width: 3px;
+  background: linear-gradient(180deg, var(--c2), var(--c4));
+  border-radius: 0 2px 2px 0;
+}
+
+.scroll-hint {
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 24px;
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1.0; }
+}
+
+/* 13. Footer styles */
+.page-footer {
+  padding: 40px 60px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  margin-top: 80px;
+}
+
+.footer-text {
+  font-size: 13px;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-tertiary);
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-links span {
+  font-size: 12px;
+  font-family: 'Helvetica Now', Arial, sans-serif;
+  color: var(--text-secondary);
+}
+
+/* 14. Section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.08), transparent);
+  margin: 0 80px;
+}
+
+/* 15. Responsive breakpoint */
+@media (max-width: 1400px) {
+  .main-layout {
+    flex-direction: column !important;
+  }
+  .page-container {
+    padding: 0 24px;
+  }
+}
+
+/* 16. Smooth scroll (also in html selector above) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 17. Selection styling to match theme */
+::selection {
+  background: var(--c2);
+  color: var(--text-primary);
+}
+
+/* Glass card inner spacing */
+.glass-card .section-title {
+  margin-bottom: 16px;
+}
+
+.glass-card .source-line {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
